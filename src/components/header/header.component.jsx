@@ -7,11 +7,11 @@ import Logo from '../../assets/images/sambo-logo.png'
 const Header = () => (
 
     <div className="header">
-        <Link className='logo-container' to='/'>
+        <Link className='logo-container' to='/sambo'>
             <img className="sambo-logo" src={Logo} />
         </Link>
         <div className="options">
-            <Link className="option" to='/' >
+            <Link className="option" to='/sambo' >
                 HOME
             </Link>
             <Link className="option" to='/menu' >
