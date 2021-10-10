@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/sambo/static/css/main.d87df2e9.chunk.css",
-    "main.js": "/sambo/static/js/main.dd1ac2b0.chunk.js",
-    "main.js.map": "/sambo/static/js/main.dd1ac2b0.chunk.js.map",
+    "main.css": "/sambo/static/css/main.6b6e7e9c.chunk.css",
+    "main.js": "/sambo/static/js/main.f0d36ad1.chunk.js",
+    "main.js.map": "/sambo/static/js/main.f0d36ad1.chunk.js.map",
     "runtime-main.js": "/sambo/static/js/runtime-main.1ca428d4.js",
     "runtime-main.js.map": "/sambo/static/js/runtime-main.1ca428d4.js.map",
     "static/css/2.4659568d.chunk.css": "/sambo/static/css/2.4659568d.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.065d3345.chunk.js.map": "/sambo/static/js/2.065d3345.chunk.js.map",
     "index.html": "/sambo/index.html",
     "static/css/2.4659568d.chunk.css.map": "/sambo/static/css/2.4659568d.chunk.css.map",
-    "static/css/main.d87df2e9.chunk.css.map": "/sambo/static/css/main.d87df2e9.chunk.css.map",
+    "static/css/main.6b6e7e9c.chunk.css.map": "/sambo/static/css/main.6b6e7e9c.chunk.css.map",
     "static/js/2.065d3345.chunk.js.LICENSE.txt": "/sambo/static/js/2.065d3345.chunk.js.LICENSE.txt",
     "static/media/sambo-logo.05a2ff4c.png": "/sambo/static/media/sambo-logo.05a2ff4c.png",
     "static/media/sambo-rodizio-grill.99261ddd.png": "/sambo/static/media/sambo-rodizio-grill.99261ddd.png",
@@ -20,7 +20,7 @@
     "static/js/runtime-main.1ca428d4.js",
     "static/css/2.4659568d.chunk.css",
     "static/js/2.065d3345.chunk.js",
-    "static/css/main.d87df2e9.chunk.css",
-    "static/js/main.dd1ac2b0.chunk.js"
+    "static/css/main.6b6e7e9c.chunk.css",
+    "static/js/main.f0d36ad1.chunk.js"
   ]
 }
