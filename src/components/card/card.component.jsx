@@ -3,13 +3,22 @@ import './card.styles.scss'
 
 function Card({title, image, description}){
   return(
-    <div className="card text-center bg-dark rounded-0">
-      <img src={image} alt="" />
-      <div className="card-body">
-        <h4 className="card-title">{title}</h4>
-        {/* DESCRIPTION SHOULD SHOW WHEN HOVER */}
-        {/* <p className="card-text">{description}</p> */}
+    <div className="card__content">
+
+      <div className="card__front">
+        <img className='card__background' src={image} alt="" />
+
+        <h4 className="card__title">{title.toUpperCase()}</h4>
+
       </div>
+
+      <div className="card__back">
+        <div className="card__text">{description}</div>
+
+        <h4 className="card__title__back">{title.toUpperCase()}</h4>
+
+      </div>
+
     </div>)
 }
 

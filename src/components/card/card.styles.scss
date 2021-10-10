@@ -1,7 +1,51 @@
-.card:hover{
-    border: solid red 1px;
+.card__content{
+    text-align: center;
+    position: relative;
+    transition: transform 2s;
+    transform-style: preserve-3d;
 }
-.card{
-    width: 84%;
-    margin: auto;
+
+.card__background{
+    width: 300px;
+    transform: translate(-13.3px, -2px);
+}
+
+.card__front, .card__back{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform-style: preserve-3d;
+
+}
+.card__front{
+    .card__title{
+        transform: translateZ(5rem);
+        backface-visibility: hidden;
+
+    }
+}
+
+
+.card__back{
+    transform: rotateY(0.5turn);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+    .card__text{
+        background: rgba($color: #000000, $alpha: 0.7);
+        position: absolute;
+        top: 150px;
+        transform: translateZ(5rem);
+    }
+
+    .card__title__back{
+        transform: translateZ(5rem);
+        backface-visibility: hidden;
+        position: absolute;
+        top:450px;
+
+    }
 }
