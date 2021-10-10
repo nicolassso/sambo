@@ -1,0 +1,22 @@
+.solo-fogo-video{
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    right: 50%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -18%);
+    z-index: -1;
+}
+.blank-div{
+    height: 100vh;
+}
+
+.sambo-grill{
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 90%);
+
+}
