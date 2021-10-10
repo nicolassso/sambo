@@ -7,7 +7,7 @@ import './index.css';
 import App from './App';
 
 ReactDOM.render(
-  <BrowserRouter basename="/sambo">
+  <BrowserRouter>
     <App />
   </BrowserRouter>,
   document.getElementById('root')
