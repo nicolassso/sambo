@@ -13,7 +13,7 @@ function CardList() {
     <div className="row">
       {
         cards.map(card => (
-          <div className="card" key={card.id}>
+          <div className={`card card${card.id}`} key={card.id} >
             <Card title={card.title} description={card.description} image={card.image} />
           </div>)
         )

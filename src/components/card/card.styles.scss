@@ -3,12 +3,27 @@
     position: relative;
     transition: transform 2s;
     transform-style: preserve-3d;
+
 }
 
 .card__background{
     width: 300px;
     transform: translate(-13.3px, -2px);
+    height: 450px;
+    position: relative;
+    margin-bottom: 20px;
+    
+    // transition-property: width;
+    // transition-delay: 700ms;
+    // transition-duration: 700ms;
 }
+
+//TRYING TO MAKE THE CARD SCREEN WIDTH ONCE IT TURNS
+// .card1:hover .card__background{
+//     width: 80vw;
+//     height:450px;
+// }
+
 
 .card__front, .card__back{
     position: absolute;
@@ -45,7 +60,7 @@
         transform: translateZ(5rem);
         backface-visibility: hidden;
         position: absolute;
-        top:450px;
+        top:470px;
 
     }
 }

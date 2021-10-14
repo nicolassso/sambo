@@ -6,8 +6,13 @@
     background: none;
     margin-bottom: 150px;
 
+    transition-property: width;
+    transition-delay: 700ms;
+    transition-duration: 700ms;
+
 }
 .card:hover .card__content{
     transform: rotateY(0.5turn);
     
 }
+
