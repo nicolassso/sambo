@@ -11,6 +11,10 @@ const Header = () => (
             <img className="sambo-logo" src={Logo} />
         </Link>
         <div className="options">
+            <Link className="option" id='aboutus' to='/aboutus' >
+                ABOUT US
+            </Link>
+            <p className='option' id='spacer'>_</p>
             <Link className="option" to='/sambo' >
                 HOME
             </Link>

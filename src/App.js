@@ -5,6 +5,7 @@ import Header from './components/header/header.component';
 import HomePage from './pages/homepage/homepage.component';
 import MenuPage from './pages/menupage/menupage.component';
 import BookingPage from './pages/bookingpage/bookingpage.component';
+import AboutUs from './pages/about-us/about-us.component';
 
 import './App.css';
 
@@ -16,6 +17,8 @@ function App() {
           <Route exact path='/sambo' component={HomePage} />
           <Route path='/menu' component={MenuPage} />
           <Route path='/booking' component={BookingPage} />
+          <Route path='/aboutus' component={AboutUs} />
+
         </Switch>
       </div>
   );

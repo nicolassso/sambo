@@ -10,10 +10,10 @@
     .logo-container {
       height: 100%;
       width: 70px;
-      padding: 5px 5px 5px 100px;
+      padding: 10px 5px 5px 100px;
 
       .sambo-logo{
-        width: 70px;
+        width: 50px;
         filter: invert(100%);
       }
     }
@@ -32,6 +32,18 @@
         cursor: pointer;
         color: white;
         font-size: 13px;
+      }
+      #aboutus{
+        padding-right: 15px;
+      }
+      #spacer{
+        padding-top: 20px;
+        cursor: default;
+
+        &:hover{
+          color: white;
+        }
+
       }
       .option:hover{
         color:grey;
