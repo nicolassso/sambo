@@ -7,10 +7,16 @@
 .table-agent-widget{
     margin-bottom: 100px;
     height: 200px;
-    justify-self: right;
+    position: absolute;
+    right: 20%;
+    border-radius: 5px;
 }
+
 
 .booking-policy{
     padding: 20px;
-    width: 30%
+    width: 30%;
+    position: absolute;
+    left: 15%;
+    text-align: center;
 }

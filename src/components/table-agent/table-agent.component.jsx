@@ -5,8 +5,7 @@ const TableAgent = () => (
     <div className="table-agent">
         <div className="booking-policy">
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo iste odit repellendus nisi id quaerat iure hic voluptatibus tempora deserunt assumenda alias, cum, qui vitae. Distinctio dignissimos temporibus magnam a?
-                Rerum suscipit, magni pariatur cumque molestias dolorum nemo saepe iste! Obcaecati praesentium totam, quasi dolorem fuga iusto itaque accusantium repudiandae ipsam modi accusamus adipisci ea eaque, voluptates tenetur sapiente in?
+                Make sure to understand our <a href="#">Reservation policy.</a> 
             </p>
         </div>
         <iframe
@@ -15,7 +14,8 @@ const TableAgent = () => (
             style={{border:'0px none',
                     minWidth:'300px',
                     maxWidth:'350px',
-                    minHeight:'400px'}}
+                    minHeight:'400px'
+                    }}
             width="100%"
             height="100%">
         </iframe>

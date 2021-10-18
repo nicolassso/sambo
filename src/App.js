@@ -2,6 +2,7 @@ import React from 'react'
 import { Route, Switch } from 'react-router-dom';
 
 import Header from './components/header/header.component';
+import Footer from './components/footer/footer.component';
 import HomePage from './pages/homepage/homepage.component';
 import MenuPage from './pages/menupage/menupage.component';
 import BookingPage from './pages/bookingpage/bookingpage.component';
@@ -20,6 +21,7 @@ function App() {
           <Route path='/aboutus' component={AboutUs} />
 
         </Switch>
+        <Footer />
       </div>
   );
 }
