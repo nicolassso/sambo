@@ -14,7 +14,7 @@ const Header = () => (
             <Link className="option" id='aboutus' to='/aboutus' >
                 ABOUT US
             </Link>
-            <p className='option' id='spacer'>_</p>
+            <p className='option' id='spacer'>______</p>
             <Link className="option" to='/sambo' >
                 HOME
             </Link>

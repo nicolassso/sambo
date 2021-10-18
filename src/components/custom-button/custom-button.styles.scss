@@ -1,6 +1,6 @@
 .custom-button {
-  min-width: 80px;
-  width: 120px;
+  min-width: 100px;
+  width: auto;
   height: 50px;
   letter-spacing: 0.5px;
   line-height: 50px;
@@ -9,14 +9,12 @@
   background-color: rgb(12, 11, 11);
   color: white;
   text-transform: uppercase;
-  font-family: 'Open Sans Condensed';
-  font-weight: bolder;
   border: none;
   cursor: pointer;
 
   &:hover {
-    background-color: white;
+    background-color: #f16788;
     color: black;
-    border: 1px solid rgb(255, 255, 255);
+    border: none;
   }
 }

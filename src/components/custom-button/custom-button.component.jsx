@@ -2,10 +2,11 @@ import React from 'react';
 
 import './custom-button.styles.scss';
 
-const CustomButton = () => (
+const CustomButton = ({children}) => (
   <button
-    className='custom-button'
+    className='custom-button' 
   >
+    {children}
   </button>
 );
 
