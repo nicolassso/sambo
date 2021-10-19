@@ -15,7 +15,10 @@ function Location() {
         {
         locations.map(location => (
           <div className={`${location.title}-location`} key={location.id} >
-            <LocationCard title={location.title} image={location.image} />
+            <LocationCard 
+            title={location.title} 
+            image={location.image} 
+            />
           </div>)
         )
       }

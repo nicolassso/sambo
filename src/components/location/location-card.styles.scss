@@ -1,13 +1,15 @@
 
 .weymouth-location, .poole-location{
+    box-shadow: 5px 5px 30px #031b3f;
+
     position: absolute;
     width: 40%;
     height: 350px;
     margin: 30px;
-    display: flex;
-    justify-content: center;
     overflow: hidden;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
 }
 .weymouth-location{
     left: 5%;

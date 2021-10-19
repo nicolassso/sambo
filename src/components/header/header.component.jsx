@@ -18,7 +18,7 @@ const Header = () => (
             <Link className="option" to='/sambo' >
                 HOME
             </Link>
-            <Link className="option" to='/menu' >
+            <Link className="option" to='/menu-location' >
                 MENU
             </Link>
             <Link className="option" to='/booking' >

@@ -5,7 +5,7 @@ import Location from '../../components/location/location.component';
 
 const MenuPage = () => (
     <div className="menupage">
-        <h1>MENU</h1>
+        <h1 style={{fontSize:'24px'}}>Select your favourite location</h1>
         <Location />
     </div>
 )

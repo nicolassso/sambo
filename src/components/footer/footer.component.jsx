@@ -10,9 +10,13 @@ const Footer = () => (
         <section className="section-left">
             <h1>CONTACT</h1>
             <h3>PHONE</h3>
-            <a href='tel: +44 1305 457870'><i class="fa fa-phone " ></i> +44 1305 457870</a>
+            <a href='tel: +44 1305 457870'><i class="fa fa-phone "  style={{
+                color: 'white'
+            }}></i> +44 1305 457870</a>
             <h3>EMAIL</h3>
-            <a href='mailto: info@samborodizio.co.uk'><i class="far fa-envelope"></i> info@samborodizio.co.uk</a>
+            <a href='mailto: info@samborodizio.co.uk'><i class="far fa-envelope" style={{
+                color: 'white'
+            }}></i> info@samborodizio.co.uk</a>
         </section>
         <section className="section-center">
         <Link className='logo-container' to='/sambo'>
@@ -25,18 +29,31 @@ const Footer = () => (
             <h1 style={{textAlign:'center'}}>VISIT US</h1>
             <div className="section-addresses">
                 <div className="footer-weymouth">
-                    <h3>WEYMOUTH</h3>
-                    <p> 41 Abbotsbury Rd <br />
-                        Weymouth, Dorset  <br />
-                        DT4 0AQ <br />
-                        UNITED KINGDOM</p>
+                    <div className="footer-weymouth-header"
+                    style={{borderBottom:'2px solid #0d6efd'}}>
+                        <h3>WEYMOUTH</h3>
+                    </div>
+                    <div className="footer-weymouth-body">
+                        <p> 41 Abbotsbury Rd <br />
+                            Weymouth, Dorset  <br />
+                            DT4 0AQ <br />
+                            UNITED KINGDOM</p>
+                    </div>
+                        
                 </div>
                 <div className="footer-poole">
-                    <h3>POOLE</h3>
-                    <p> The Quay <br />
-                        Poole <br />
-                        BH15 <br />
-                        UNITED KINGDOM</p>
+                    <div className="footer-poole-header" 
+                    style={{
+                            borderBottom:'2px solid #0d6efd'
+                        }}>
+                            <h3>POOLE</h3>
+                    </div>
+                    <div className="footer-poole-body">
+                        <p> The Quay <br />
+                            Poole <br />
+                            BH15 <br />
+                            UNITED KINGDOM</p>
+                    </div>                        
                 </div>
             </div>
         </section>
