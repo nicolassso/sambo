@@ -27,7 +27,7 @@
     padding: 1rem;
 }
 
-.menu-lunch-header, .menu-lunch-prices, .menu-dinner-header{
+.menu-lunch-header, .menu-lunch-prices, .menu-dinner-header, .menu-vegs-header{
     text-align: center;
 }
 
@@ -45,7 +45,7 @@
 }
 
 
-.menu-lunch-prices-header{
+.menu-lunch-prices-header, .menu-dinner-header-top, .menu-vegs-header{
     h1{
         font-size: 24px;
         font-weight: 600;
@@ -53,12 +53,12 @@
 }
 
 
-.menu-lunch-meats{
+.menu-lunch-meats, .menu-dinner-meats, .menu-vegs-food{
 
     display: flex;
     flex-direction: row;
 }
-.menu-lunch-meats-left{
+.menu-lunch-meats-left, .menu-dinner-meats-left, .menu-vegs-food-left{
 
     display: flex;
     flex-direction: column;
@@ -66,7 +66,7 @@
     height: 100%;
 
 }
-.menu-lunch-meats-right{
+.menu-lunch-meats-right, .menu-dinner-meats-right, .menu-vegs-food-right{
 
     display: flex;
     flex-direction: column;
@@ -74,7 +74,6 @@
     height: 100%;
 }
 .meat{
-
     width: 100%;
     height: 150px;
     padding: 10px;
@@ -92,4 +91,13 @@
 .meat-description{
     font-size: 12px;
 }
-
+.meat-butcher{
+    margin-top: 45px;
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+}
+.price-text{
+    color: #f79a42;
+    font-weight: 400;
+}

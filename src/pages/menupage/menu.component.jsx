@@ -24,8 +24,8 @@ function Menu() {
                         <h1>LUNCH MENU</h1>
                     </div>
                     <div className="menu-lunch-prices-body">
-                        SELECTION OF 8 MEATS THURSDAY TO SUNDAY: 18.95 <br />
-                        CHILDREN UP TO 4 YEARS FREE - 5 TO 8: 6.95 - 9 TO 13: 12.50
+                        <b className='price-text'>SELECTION OF 8 MEATS</b> THURSDAY TO SUNDAY: <b className='price-text'>18,95</b> <br />
+                        CHILDREN UP TO 4 YEARS <b className='price-text'>FREE</b> - 5 TO 8: <b className='price-text'>6,95</b> - 9 TO 13: <b className='price-text'>12,50</b>
                     </div>
                 </div>
                 <div className="menu-lunch-meats">
@@ -79,18 +79,100 @@ function Menu() {
                 </div>
             </div>
             <div className="menu-dinner">
-                <div className="menu-dinner-header">DINNER MENU</div>
+                <div className="menu-dinner-header">
+                    <div className="menu-dinner-header-top"><h1>DINNER MENU</h1></div>
+                    <div className="menu-dinner-header-text"><b className='price-text'>A SELECTION OF 14 MEATS, INCLUDING LUNCH MENU PLUS 6 CUTS</b> <br />
+                        MONDAY TO THURSDAY: <b className='price-text'>26,85</b> FRIDAY TO SUNDAY: <b className='price-text'>28,95</b></div>
+                    </div>
                 <div className="menu-dinner-meats">
-                    FILE MIGNON 
-                    ALCATRA 
-                    FRANGO COM BACON 
-                    FRALDINHA 
-                    CARNE AO CHILLI 
+                    <div className="menu-dinner-meats-left">
+                        <div className="meat file">
+                            <h1 className="meat-brasil">FILÈ MIGNON</h1>
+                            <h1 className="meat-uk">BEEF TENDERLOIN</h1>
+                            <p className="meat-description">
+                                A first class cut, fillet steak tender and full of flavour
+                            </p>
+                        </div>
+                        <div className="meat alcatra">
+                            <h1 className="meat-brasil">ALCATRA</h1>
+                            <h1 className="meat-uk">RUMP</h1>
+                            <p className="meat-description">
+                                Rum steak cut, tender with a deep, mineral savouriness
+                            </p>
+                        </div>
+                        <div className="meat skirt">
+                            <h1 className="meat-brasil">FRALDINHA</h1>
+                            <h1 className="meat-uk">BEEF SKIRT</h1>
+                            <p className="meat-description">
+                                Juicy and flavoursome cut from the plate
+                            </p>
+                        </div>
+                        <div className="meat chilli">
+                            <h1 className="meat-brasil">CARNE AO CHILLI</h1>
+                            <h1 className="meat-uk">CHILLI BEEF</h1>
+                            <p className="meat-description">
+                                Tender and full of flavour, marinated and basted with our handmade chilli sauce
+                            </p>
+                        </div>
+                    </div>
+                    <div className="menu-dinner-meats-right">
+                        <div className="meat chickenbacon">
+                            <h1 className="meat-brasil">FRANGO COM BACON</h1>
+                            <h1 className="meat-uk">CHICKEN AND BACON</h1>
+                            <p className="meat-description">
+                                Marinated chicken breast wrapped in bacon
+                            </p>
+                        </div>
+                        <div className="meat-butcher">
+                            <h1 className="meat-uk">SPECIAL BUTCHER'S CHOICE</h1>
+                            <p className="meat-description">
+                                A SPECIAL CUT SELECTED BY OUR GRILL'S HEAD CHEF. <br /> <br />
+                                ASK YOUR SERVER OR FIND OUT OUR SPECIAL OF THE WEEK ON OUR WEBPAGE OR SOCIAL MEDIA
+                            </p>
+                        </div>
+                        <div className="meat cooked">
+                            <h1 className="meat-uk">HOW WOULD YOU LIKE YOUR MEAT COOKED ?</h1>
+                            <p className="meat-description">
+                                Let us know how you prefer your meat cooked. We are happy to serve all our cuts to your specific taste
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div className="menu-vegs">VEGETARIAN AND FISH OPTION 
-                RISOTTO 
-                PEIXE 
-                PASTA </div>
+                <div className="menu-vegs">
+                    <div className="menu-vegs-header">
+                        <h1>VEGETARIAN AND FISH OPTION</h1>
+                        <div className="menu-vegs-header-text">LUNCH <b className='price-text'>15,95</b> DINNER <b className='price-text'>19,95</b></div>
+                    </div>
+                    <div className="menu-vegs-food">
+                        <div className="menu-vegs-food-left">
+                            <div className="meat risotto">
+                                <h1 className="meat-brasil">RISOTTO</h1>
+                                <h1 className="meat-uk">BUTTERNUT SQUASH</h1>
+                                <p className="meat-description">
+                                    With black pepper, sauted asparagus on olive oil and topped with Vegetarian Parmesan Cheese
+                                </p>
+                            </div>
+                            <div className="meat pasta">
+                                <h1 className="meat-brasil">PASTA</h1>
+                                <h1 className="meat-uk">RIGATONI</h1>
+                                <p className="meat-description">
+                                    Ratatouille vegetable mix, topped with Vegetarian Parmesan Cheese
+                                    * Double Cream sauce available
+                                    ** Gluten free pasta available
+                                </p>
+                            </div>
+                        </div>
+                        <div className="menu-vegs-food-right">
+                            <div className="meat pasta">
+                                <h1 className="meat-brasil">PEIXE / FISH</h1>
+                                <h1 className="meat-uk">SALMON OR SEABASS</h1>
+                                <p className="meat-description">
+                                    Served in a mix vegetable bed, caramelized lime, sauted asparagus and parsley
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )
