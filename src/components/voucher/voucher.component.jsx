@@ -1,14 +1,21 @@
 import React from 'react'
 import './voucher.styles.scss'
 
-import {withRouter} from 'react-router-dom'
 
 import voucherimg from '../../assets/images/gift_card.png'
 import CustomButton from '../custom-button/custom-button.component'
+import {useHistory} from 'react-router-dom'
 
 
 
-const Voucher = ({history}) => {
+
+const Voucher = () => {
+
+    const history = useHistory();
+    
+    const handleClick = () => {
+      history.push('/menu')
+    }
 
     return (
 
@@ -24,15 +31,13 @@ const Voucher = ({history}) => {
 
         <div className="voucher-button">
             <CustomButton
-                onClick={() => {
-                history.push('/aboutus');    
-                }}>
+                onClick={handleClick}>
                 Leer más
             </CustomButton>
-        </div>        
+        </div>  
 
     </div>
     )
 }
 
-export default withRouter(Voucher);
+export default Voucher;

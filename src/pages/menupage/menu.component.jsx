@@ -156,8 +156,8 @@ function Menu() {
                                 <h1 className="meat-brasil">PASTA</h1>
                                 <h1 className="meat-uk">RIGATONI</h1>
                                 <p className="meat-description">
-                                    Ratatouille vegetable mix, topped with Vegetarian Parmesan Cheese
-                                    * Double Cream sauce available
+                                    Ratatouille vegetable mix, topped with Vegetarian Parmesan Cheese <br />
+                                    * Double Cream sauce available <br />
                                     ** Gluten free pasta available
                                 </p>
                             </div>
