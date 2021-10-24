@@ -1,22 +1,60 @@
-.solo-fogo-video{
-    position: absolute;
+.landing-video{
+    display: flex;
     width: 100%;
-    left: 50%;
-    right: 50%;
     height: 100%;
-    object-fit: cover;
-    transform: translate(-50%, -18%);
-    z-index: -1;
-}
-.blank-div{
-    height: 100vh;
+    .solo-fogo-video{
+        position: absolute;
+        width: 100%;
+        left: 50%;
+        right: 50%;
+        height: 100%;
+        object-fit: cover;
+        transform: translate(-50%, -18%);
+        z-index: -1;
+    }
+    .blank-div{
+        height: 100vh;
+    }
+
+    .sambo-grill-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    @keyframes fadeLeft {
+        0% {left:46%; opacity: 0.2}
+        25%{left:47%; opacity: 0.4}
+        50%{left:48%; opacity: 0.6}
+        75%{left:49%; opacity: 0.7}
+        100%{left:50%; opacity: 0.8}
+    }
+    
+    .sambo-grill{
+        width: 250px;
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%, -80%);
+        opacity: 1;
+        animation: fadeLeft 1s linear 2s;
+    }
 }
 
-.sambo-grill{
-    width: 200px;
-    position: absolute;
-    left: 50%;
-    right: 50%;
-    transform: translate(-50%, 90%);
-
+@media screen and (max-width:700px){
+    .sambo-grill-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        .sambo-grill{
+            width: 180px;
+            position: absolute;
+            left: 50%;
+            right: 50%;
+            transform: translate(-50%, -80%);
+        }
+    }
+    
 }

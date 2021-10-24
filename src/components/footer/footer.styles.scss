@@ -12,7 +12,7 @@
         font-size: 24px;
         color: #0d6efd;
         font-weight: bold;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
     h3{
         font-size: 18px;
@@ -34,10 +34,6 @@
     margin-right: 50px;
 }
 
-.section-left{
-
-}
-
 .section-center{
 
     display: flex;
@@ -57,6 +53,46 @@
         padding-top: 20px;
     }
 }
+@media screen and (max-width:690px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        width: 100vw;
+        color: white;
+        background: rgba($color: #000000, $alpha: 0.3);
+        padding: 60px 15px 100px 15px;
+        .footer-weymouth{
+            margin-right: 0;
+        }
+        .section-right{
+            margin-top: 60px;
+        }
+        .section-addresses{
+            display: flex;
+            flex-direction: column;
+        }
+        .section-center{
+            order: 3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 30px 0;
+            .logo-container{
+                display: flex;
+                flex-direction: row;        
+                .sambo-logo{
+                    width: 60px;
+                    filter: invert(100%);
+                }
+            }
+            .footer-sambo{
+                color: white;
+                font-size: 12px;
+                padding-top: 20px;
+            }
+        }
 
-.section-right{
-}
+    }
+  }

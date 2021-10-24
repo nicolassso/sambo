@@ -12,8 +12,9 @@ const LandingVideo = () => (
             muted>
             <source src={SoloFogo} type="video/mp4" />
         </video>
-        
-        <img className="sambo-grill" src={Sambo} />
+        <div className="sambo-grill-container">
+            <img className="sambo-grill" src={Sambo} />
+        </div>
         <div className="blank-div"></div>
     </div>
 )

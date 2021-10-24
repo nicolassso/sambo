@@ -22,7 +22,7 @@ const Footer = () => (
         <Link className='logo-container' to='/sambo'>
             <img className="sambo-logo" src={Logo} />
         </Link>
-        <p className='footer-sambo'> SAMBÔ RODIZIO BAR & GRILL <br /> 2021®</p>
+        <p className='footer-sambo'> SAMBÔ RODIZIO BAR & GRILL® <br /> EST. 2019</p>
 
         </section>
         <section className="section-right">

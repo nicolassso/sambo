@@ -1,3 +1,7 @@
+@keyframes fadeLeft {
+    0% {left:0px; opacity: 0.2}
+}
+
 .card{
     position: relative;
     height: 448px;
@@ -6,9 +10,7 @@
     background: none;
     margin-bottom: 150px;
 
-    transition-property: width;
-    transition-delay: 700ms;
-    transition-duration: 700ms;
+    animation: fadeLeft 1s linear 2s;
 
 }
 .card:hover .card__content{
@@ -16,3 +18,16 @@
     
 }
 
+@media screen and (max-width:690px){
+    .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .card{
+        margin-bottom: 60px;
+    }
+    .card:hover .card__content{
+        transform: none;
+    }
+  }
