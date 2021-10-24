@@ -77,6 +77,16 @@
   }
   
 @media screen and (max-width:810px){
+
+  @keyframes fadeIn {
+    0% {opacity: 0;
+      transform: translateX(-20px);
+    }
+    100% {opacity: 1;
+      transform: translateX(0);
+    }
+ } 
+
   .header.active{
     background: rgba($color: #000000, $alpha: 0.7);
     height: 80px;
@@ -91,7 +101,7 @@
       top: 80px;
       right: -100%;
       opacity: 0.1;
-      transition: all 0.5s ease;
+      transition: all 1s ease;
       margin-left: 0;
       text-align: center;
 
@@ -102,15 +112,18 @@
     }
     .header-menu.active {
       display: flex;
+      width: 106vw;
       flex-direction: column;
       justify-content: center;
       background: rgba($color: #000000, $alpha: 0.8);
-      right: 0;
+      left: 0;
       opacity: 1;
       transition: all 0.5s ease;
       z-index: 1;
       text-align: center;
       padding-inline-start: 0;
+
+      animation: fadeIn 1s linear 0.9 ;
 
     }
     .header-item.active{
@@ -141,7 +154,7 @@
       display: block;
       position: absolute;
       top: 3px;
-      right: 5%;
+      right: 5px;
       transform: translate(-100%, 60%);
       font-size: 1.5rem;
       cursor: pointer;
