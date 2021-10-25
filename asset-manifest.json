@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sambo/static/css/main.845f6ae3.chunk.css",
-    "main.js": "/sambo/static/js/main.11e7dcf4.chunk.js",
-    "main.js.map": "/sambo/static/js/main.11e7dcf4.chunk.js.map",
+    "main.js": "/sambo/static/js/main.9ad6d532.chunk.js",
+    "main.js.map": "/sambo/static/js/main.9ad6d532.chunk.js.map",
     "runtime-main.js": "/sambo/static/js/runtime-main.1ca428d4.js",
     "runtime-main.js.map": "/sambo/static/js/runtime-main.1ca428d4.js.map",
     "static/css/2.4659568d.chunk.css": "/sambo/static/css/2.4659568d.chunk.css",
@@ -12,6 +12,7 @@
     "static/css/2.4659568d.chunk.css.map": "/sambo/static/css/2.4659568d.chunk.css.map",
     "static/css/main.845f6ae3.chunk.css.map": "/sambo/static/css/main.845f6ae3.chunk.css.map",
     "static/js/2.4cc50879.chunk.js.LICENSE.txt": "/sambo/static/js/2.4cc50879.chunk.js.LICENSE.txt",
+    "static/media/FOGO720.e76729e9.mov": "/sambo/static/media/FOGO720.e76729e9.mov",
     "static/media/buffet.c912bb2f.jpeg": "/sambo/static/media/buffet.c912bb2f.jpeg",
     "static/media/cocktails.31cdf4b6.jpeg": "/sambo/static/media/cocktails.31cdf4b6.jpeg",
     "static/media/gift_card.b837ba47.png": "/sambo/static/media/gift_card.b837ba47.png",
@@ -19,7 +20,6 @@
     "static/media/rodizio.65771b03.jpeg": "/sambo/static/media/rodizio.65771b03.jpeg",
     "static/media/sambo-logo.05a2ff4c.png": "/sambo/static/media/sambo-logo.05a2ff4c.png",
     "static/media/sambo-rodizio-grill.99261ddd.png": "/sambo/static/media/sambo-rodizio-grill.99261ddd.png",
-    "static/media/solo-fogo.7073b2f1.mp4": "/sambo/static/media/solo-fogo.7073b2f1.mp4",
     "static/media/about-us.styles.scss": "/sambo/static/media/wood-fire.8a4a4ccd.jpg",
     "static/media/bookingpage.styles.scss": "/sambo/static/media/wood-fire2.220aee6f.jpg"
   },
@@ -28,6 +28,6 @@
     "static/css/2.4659568d.chunk.css",
     "static/js/2.4cc50879.chunk.js",
     "static/css/main.845f6ae3.chunk.css",
-    "static/js/main.11e7dcf4.chunk.js"
+    "static/js/main.9ad6d532.chunk.js"
   ]
 }
