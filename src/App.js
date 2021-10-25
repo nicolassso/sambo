@@ -2,6 +2,7 @@ import React from 'react'
 import { Route, Switch } from 'react-router-dom';
 
 import Header from './components/header/header.component';
+import TopSocialMedia from './components/top-social-media/top-social-media.component';
 import Footer from './components/footer/footer.component';
 
 import HomePage from './pages/homepage/homepage.component';
@@ -17,6 +18,7 @@ import './App.scss';
 function App() {
   return (
     <div>
+        <TopSocialMedia />
         <Header/>
         <Switch>
           <Route exact path='/sambo' component={HomePage} />

@@ -52,6 +52,8 @@
         cursor: pointer;
         color: var(--textWhite);
         font-size: 13px;
+        transition-duration: .5s;
+
       }
       #aboutus{
         padding-right: 15px;
@@ -71,7 +73,7 @@
         height: 0px;
       }
       .option:hover{
-        color:var(--orange);
+        color:var(--pink);
       }
     }
   }

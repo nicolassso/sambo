@@ -22,23 +22,28 @@
         align-items: center;
         width: 100%;
     }
-
-    @keyframes fadeLeft {
-        0% {left:46%; opacity: 0.2}
-        25%{left:47%; opacity: 0.4}
-        50%{left:48%; opacity: 0.6}
-        75%{left:49%; opacity: 0.7}
-        100%{left:50%; opacity: 0.8}
-    }
     
+    @keyframes logoOpacity {
+        from {
+            opacity:0.3;
+        }
+        50%{
+            opacity: 0.6;
+        }
+        to{
+            opacity: 0.3;
+        }
+    }
     .sambo-grill{
         width: 250px;
         position: absolute;
         left: 50%;
         right: 50%;
         transform: translate(-50%, -80%);
-        opacity: 1;
-        animation: fadeLeft 1s linear 1s;
+        animation: logoOpacity 10s;
+        animation-iteration-count: infinite;
+        // opacity: .1;
+        // transition: opacity 500ms ease-in-out;
     }
 }
 

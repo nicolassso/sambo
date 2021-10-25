@@ -1,0 +1,33 @@
+.top-social-media-wrapper{
+    height: 30px;
+    width: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(241,103,136,1) 96%, rgba(241,103,136,1) 100%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    .social-media-logos{
+        width: 10%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        .instagram-logo, .facebook-logo{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .fa-instagram, .fa-facebook{
+                width: 30px;
+                color: var(--textWhite);
+            }
+        }
+    }
+}
+
