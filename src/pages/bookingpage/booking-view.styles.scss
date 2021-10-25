@@ -1,0 +1,28 @@
+.bookingview{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--textWhite);
+
+    .bookingview-header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .location-button-back{
+        position: absolute;
+        left: 30px;
+    }
+
+    .location-chosen{
+        margin: 50px 0;
+    }
+    .table-agent{
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+    }
+}

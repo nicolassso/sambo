@@ -63,7 +63,7 @@ function Header() {
                     </Link>
                 </li>
                 <li className='header-item active'>
-                    <Link className="option" to='/booking' onClick={closeMobileMenu} >
+                    <Link className="option" to='/booking-location' onClick={closeMobileMenu} >
                         BOOKING
                     </Link>
                 </li>

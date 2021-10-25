@@ -1,0 +1,21 @@
+.menuview{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--textWhite);
+
+    .menuview-header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .location-button-back{
+        position: absolute;
+        left: 30px;
+    }
+
+    .location-chosen{
+        margin: 50px 0;
+    }
+}

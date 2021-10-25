@@ -11,7 +11,7 @@
     }
 
     .fa-bars {
-      color: white;
+      color: var(--textWhite);
     }
     
     .header-menu {
@@ -33,7 +33,7 @@
 
       .sambo-logo{
         width: 50px;
-        filter: invert(100%);
+        filter: invert(65%);
       }
     }
   
@@ -50,7 +50,7 @@
       .option {
         padding: 10px 15px;
         cursor: pointer;
-        color: white;
+        color: var(--textWhite);
         font-size: 13px;
       }
       #aboutus{
@@ -61,17 +61,17 @@
         cursor: default;
 
         &:hover{
-          color: white;
+          color: var(--textWhite);
         }
 
       }
       .option-spacer-line{
-        border-bottom: solid white .3px;
+        border-bottom: solid var(--textWhite) .3px;
         width: 45px;
         height: 0px;
       }
       .option:hover{
-        color:#f79a42;
+        color:var(--orange);
       }
     }
   }
@@ -158,11 +158,11 @@
       transform: translate(-100%, 60%);
       font-size: 1.5rem;
       cursor: pointer;
-      color: white;
+      color: var(--textWhite);
     }
     /* Botón cerrar menú móvil */
     .fa-times {
-      color: white;
+      color: var(--textWhite);
       font-size: 1.5rem;
       margin-top: 2%;
       padding-right: 3px;

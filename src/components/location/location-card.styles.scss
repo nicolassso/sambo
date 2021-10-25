@@ -1,41 +1,49 @@
 
 .weymouth-location, .poole-location{
-    position: absolute;
-    width: 40%;
-    height: 350px;
-    margin: 30px;
-    overflow: hidden;
-    border-radius: 5px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    .go-to-menu-btn{
+        width: 55%;
+        margin-top: 40px;
+        .custom-button{
+            width: 100%;            
+        }
+    }
 }
 .weymouth-location{
-    left: 5%;
+    padding-left: 100px;
 }
 .poole-location{
-    right: 5%;
+    padding-right: 100px;
+}
+
+
+.location-card{
+    display: block;
+    width: fit-content;
+}
+
+.location-img-container{
+    width: fit-content;
+    height: fit-content;
+    background-color: black;
+    opacity: 0.7;
+    z-index: 10;
+    transform: rotate(270deg);
+
 }
 .weymouth-img, .poole-img{
-    max-height: 105%;
-    max-width: 105%;
-    position: absolute;
-    z-index: -5;
-    left: 0;
-    border-radius: 10px;
-
-}
-
-.weymouth-location:hover, .weymouth-img{
-    transform: scale(1.05);
-    transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-    cursor: pointer; 
-}
-.poole-location:hover, .poole-img{
-    transform: scale(1.05);
-    transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-    cursor: pointer; 
+    width: 400px;
+    height: 100%;
+    z-index: 1;
 }
 .title-location{
-    position: absolute;
-    bottom: 10%;
+    padding-top: 20px;
+    transform: translateZ(5rem);
+    color: rgba($color: #c5c5c5, $alpha: 1.0);
 }

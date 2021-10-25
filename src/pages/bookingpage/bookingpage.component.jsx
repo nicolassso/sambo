@@ -1,12 +1,14 @@
 import React from 'react'
 import './bookingpage.styles.scss'
 
-import TableAgent from '../../components/table-agent/table-agent.component';
+import Location from '../../components/location/location.component';
 
 const BookingPage = () => (
     <div className="bookingpage">
-        <h1 style={{marginBottom: '50px'}}>BOOKING</h1>
-        <TableAgent />
+        <div className="menupage-text">
+            <h1 style={{fontSize:'24px', color: '#c5c5c5'}}>Select your favourite location</h1>
+        </div>
+        <Location service='booking' destino='booking' />
     </div>
 )
 
