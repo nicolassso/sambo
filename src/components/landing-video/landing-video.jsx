@@ -1,6 +1,6 @@
 import React from 'react'
 import './landing-video.styles.scss'
-import SoloFogo from '../../assets/videos/solo-fogo.mp4'
+import SoloFogo from '../../assets/videos/FOGO720.mov'
 import Sambo from '../../assets/images/sambo-rodizio-grill.png'
 
 const LandingVideo = () => (

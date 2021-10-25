@@ -46,5 +46,4 @@ function Location({service, destino}) {
       }
     </div>)
 }
-
 export default Location;

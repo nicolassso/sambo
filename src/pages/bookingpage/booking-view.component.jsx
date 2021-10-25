@@ -20,10 +20,10 @@ const BookingView = () => {
                         </Link>
                     </div>
                     <div className="location-chosen">
-                        <h1>{location.state.title.toUpperCase()} BOOKING</h1>
+                        <h1>BOOKING FOR {location.state.title.toUpperCase()}</h1>
                     </div>
                 </div>
-            <TableAgent />
+            <TableAgent location={location.state.title} />
             </div>
         </>
     )

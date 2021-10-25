@@ -1,7 +1,7 @@
 import React from 'react'
 import './table-agent.styles.scss'
 
-const TableAgent = () => (
+const TableAgent = ({location}) => (
     <div className="table-agent">
         <div className="booking-policy">
             <p>
@@ -11,7 +11,11 @@ const TableAgent = () => (
         <div className="table-agent-wrapper">
             <iframe
                 className='table-agent-widget'
-                src="https://tableagent.com/iframe/sambo-rodizio-bar-grill/v/medium/"
+                src={
+                    location==='weymouth'
+                    ? "https://tableagent.com/iframe/sambo-rodizio-bar-grill/v/medium/"
+                    : "https://tableagent.com/iframe/sambo-rodizio-poole/v/medium/"
+                }
                 style={{border:'0px none',
                         minWidth:'300px',
                         maxWidth:'350px',
@@ -26,3 +30,4 @@ const TableAgent = () => (
 )
 
 export default TableAgent;
+

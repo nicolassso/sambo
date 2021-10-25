@@ -8,7 +8,7 @@ const BookingPage = () => (
         <div className="menupage-text">
             <h1 style={{fontSize:'24px', color: '#c5c5c5'}}>Select your favourite location</h1>
         </div>
-        <Location service='booking' destino='booking' />
+        <Location service='booking' destino='booking'/>
     </div>
 )
 
