@@ -11,11 +11,11 @@ const Footer = () => (
             <h1>CONTACT</h1>
             <h3>PHONE</h3>
             <a href='tel: +44 1305 457870'><i class="fa fa-phone "  style={{
-                color: 'white'
+                color: 'var(--textWhite)'
             }}></i> +44 1305 457870</a>
             <h3>EMAIL</h3>
             <a href='mailto: info@samborodizio.co.uk'><i class="far fa-envelope" style={{
-                color: 'white'
+                color: 'var(--textWhite)'
             }}></i> info@samborodizio.co.uk</a>
         </section>
         <section className="section-center">
@@ -30,7 +30,7 @@ const Footer = () => (
             <div className="section-addresses">
                 <div className="footer-weymouth">
                     <div className="footer-weymouth-header"
-                    style={{borderBottom:'2px solid #0d6efd'}}>
+                    style={{borderBottom:'2px solid var(--navyBlue)'}}>
                         <h3>WEYMOUTH</h3>
                     </div>
                     <div className="footer-weymouth-body">
@@ -44,7 +44,7 @@ const Footer = () => (
                 <div className="footer-poole">
                     <div className="footer-poole-header" 
                     style={{
-                            borderBottom:'2px solid #0d6efd'
+                            borderBottom:'2px solid var(--navyBlue)'
                         }}>
                             <h3>POOLE</h3>
                     </div>

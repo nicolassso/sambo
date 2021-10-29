@@ -5,13 +5,15 @@ import Sambo from '../../assets/images/sambo-rodizio-grill.png'
 
 const LandingVideo = () => (
     <div className="landing-video">
-        <video
-            className="solo-fogo-video"
-            autoPlay
-            loop
-            muted>
-            <source src={SoloFogo} type="video/mp4" />
-        </video>
+        <div className="video-wrapper">
+            <video
+                className="solo-fogo-video"
+                autoPlay
+                loop
+                muted>
+                <source src={SoloFogo} type="video/mp4" />
+            </video>
+        </div>
         <div className="sambo-grill-container">
             <img className="sambo-grill" src={Sambo} />
         </div>

@@ -1,64 +1,67 @@
 .landing-video{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    height: 100%;
-    .solo-fogo-video{
+    height: 100vh;
+
+    .video-wrapper{
         position: absolute;
-        width: 111vw;
-        left: 50%;
-        right: 50%;
-        height: 100%;
-        object-fit: cover;
-        transform: translate(-50%, -18%);
+        top: 0;
+        left: 0;
+        width: 100vw;
         z-index: -1;
-    }
-    .blank-div{
-        height: 100vh;
+        overflow: hidden;
+        }
+    
+    
+    .sambo-grill{
+        width: 250px;
+        transform: translate(0%, -60%);
+        animation: logoOpacity 4s;
+        animation-iteration-count: infinite;
+        // opacity: .1;
+        // transition: opacity 500ms ease-in-out;
     }
 
-    .sambo-grill-container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
-    
     @keyframes logoOpacity {
         from {
             opacity:0.3;
         }
         50%{
-            opacity: 0.6;
+            opacity: 0.7;
         }
         to{
             opacity: 0.3;
         }
     }
-    .sambo-grill{
-        width: 250px;
-        position: absolute;
-        left: 50%;
-        right: 50%;
-        transform: translate(-50%, -80%);
-        animation: logoOpacity 10s;
-        animation-iteration-count: infinite;
-        // opacity: .1;
-        // transition: opacity 500ms ease-in-out;
-    }
 }
 
-@media screen and (max-width:700px){
-    .sambo-grill-container{
+@media screen and (max-width:810px){
+    .landing-video{
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
+        justify-content: center;
         width: 100%;
+        height: 100vh;
+    
+        .video-wrapper{
+            width: 100vw;
+            z-index: -1;
+            overflow: hidden;
+
+            }
+        
+        
         .sambo-grill{
-            width: 180px;
-            position: absolute;
-            left: 50%;
-            right: 50%;
-            transform: translate(-41.5%, -80%);
+            width: 250px;
+            transform: translate(0%, -60%);
+            animation: logoOpacity 4s;
+            animation-iteration-count: infinite;
+            // opacity: .1;
+            // transition: opacity 500ms ease-in-out;
         }
     }
     

@@ -2,6 +2,7 @@ import React from 'react'
 import { Link, useLocation } from "react-router-dom"
 
 import Menu from '../../components/menu-component/menu.component';
+import MenuPoole from '../../components/menu-component/menu.component-poole'
 import CustomButton from '../../components/custom-button/custom-button.component';
 
 import './menu-view.styles.scss'
@@ -23,7 +24,11 @@ const MenuView = () => {
                         <h1>{location.state.title.toUpperCase()} MENU</h1>
                     </div>
                 </div>
+
+            {/* location==='poole' ? <MenuPoole>
+            */}
             <Menu />
+
             </div>
         </>
     )

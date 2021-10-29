@@ -30,9 +30,11 @@ function Header() {
     <>
     <div className="header active">        
 
-        <Link className='logo-container' to='/sambo'>
-            <img className="sambo-logo" src={Logo} />
-        </Link>
+        <div className='logo-container' to='/sambo'>
+            <Link className='logo-link' to='/sambo'>
+                <img className="sambo-logo" src={Logo}/>
+            </Link>
+        </div>
 
         <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -42,7 +44,7 @@ function Header() {
             <ul className={click ? 'header-menu active' : 'header-menu'}>
                 <li className='header-item active'>
                     <Link className="option" id='aboutus' to='/aboutus' onClick={closeMobileMenu} >
-                        ABOUT US
+                        OUR STORY
                     </Link>
                 </li>
 
@@ -51,17 +53,17 @@ function Header() {
                 </div>
 
                 <li className='header-item active'>
-
                     <Link className="option" to='/sambo' onClick={closeMobileMenu} >
                         HOME
                     </Link>
                 </li>
-                <li className='header-item active'>
 
+                <li className='header-item active'>
                     <Link className="option" to='/menu-location' onClick={closeMobileMenu} >
                         MENU
                     </Link>
                 </li>
+                
                 <li className='header-item active'>
                     <Link className="option" to='/booking-location' onClick={closeMobileMenu} >
                         BOOKING

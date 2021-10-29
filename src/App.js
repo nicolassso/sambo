@@ -10,6 +10,7 @@ import MenuPage from './pages/menupage/menupage.component';
 import BookingPage from './pages/bookingpage/bookingpage.component';
 import AboutUs from './pages/about-us/about-us.component';
 import MenuView from './pages/menupage/menu-view.component';
+import MenuPoole from './components/menu-component/menu.component-poole';
 import BookingView from './pages/bookingpage/booking-view.component';
 
 
@@ -26,7 +27,11 @@ function App() {
           <Route path='/booking-location' component={BookingPage} />
           <Route path='/booking' component={BookingView} />
           <Route path='/aboutus' component={AboutUs} />
+          {/* location==='poole' ? <Route path='/menu-poole' component={MenuPoole}
+          : <Route path='/menu' component={Menu} />
+          */}
           <Route path='/menu' component={MenuView} />
+
 
         </Switch>
         <Footer />
