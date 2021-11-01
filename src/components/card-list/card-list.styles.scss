@@ -11,13 +11,12 @@
     display: flex;
     align-items: center;
     position: relative;
-    height: 448px;
-    width: 48vw; 
+    height: 450px;
     margin: 20px;
     margin-bottom: 150px;
     text-align: center;
 
-    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../../assets/images/bonfire.jpg');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6) ), url('../../assets/images/bonfire.jpg');
     background-position: center top;
     width: 70vw;
     padding-top: 30px;
@@ -29,27 +28,55 @@
         width: 97vw;
 
         .card__title{
-            margin-bottom: 30px;
+            margin-bottom: 80px;
         }
     }
 
 }
 
-.buffet-wrapper, .cocktails-wrapper{
+.buffet-wrapper,.rodizio-wrapper, .cocktails-wrapper{
     display: flex;
-    justify-content: end;
+    justify-content: center;
 }
 
-@media screen and (max-width:690px){
+@media screen and (max-width:500px){
     .row{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
     }
+
     .card{
+        display: flex;
+        align-items: center;
+        height: 450px;
+        margin: 20px;
         margin-bottom: 60px;
+        text-align: center;
+    
+        background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6) ), url('../../assets/images/bonfire.jpg');
+        background-position: center top;
+        width: 80vw;
+        padding-top: 50px;
+        transition-duration: .4s;
+    
+    
+        &:hover{
+            padding-top: 100px;
+            width: 85vw;
+    
+            .card__title{
+                margin-bottom: 80px;
+            }
+        }
+    
     }
-    .card:hover .card__content{
-        transform: none;
+
+    .buffet-wrapper, .cocktails-wrapper, .rodizio-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
   }

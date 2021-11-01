@@ -101,3 +101,132 @@
     color: #f79a42;
     font-weight: 400;
 }
+
+
+@media screen and (max-width:500px){
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        min-height: fit-content;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+        border: none;
+    }
+    .menu-lunch, .menu-dinner{
+        width: 100%;
+        padding: 0 2px;
+        height: 100%;
+        margin: 15% 0;
+    }
+    .menu-dinner{
+        border: none;
+    }
+    .menu-lunch-header{
+        display: none;
+    }
+
+    .menu-lunch-header, .menu-lunch-body-text, .menu-lunch-prices, .menu-lunch-meats{
+        height: 31%;
+        padding: 0;
+        margin: 5% 0;
+    }
+
+    .menu-dinner-header, .menu-dinner-meats, .menu-vegs{
+        height: 31%;
+        padding: 0;
+        margin: 5% 0;
+    }
+
+    .menu-lunch-header, .menu-lunch-prices, .menu-dinner-header, .menu-vegs-header{
+        text-align: center;
+
+    }
+
+    .menu-lunch-header-text{
+        h1{
+            font-size: 20px;
+            font-weight: 600;
+            color: #f79a42;
+        }
+    }
+
+
+    .menu-lunch-body{
+        text-align: center;
+    }
+
+
+    .menu-lunch-prices-header, .menu-dinner-header-top, .menu-vegs-header{
+        h1{
+            font-size: 22px;
+            font-weight: 600;
+        }
+    }
+    .menu-lunch-prices-body, .menu-dinner-header-text{
+        padding-bottom: 4%;
+        border-bottom: solid white .8px;
+    }
+
+
+    .menu-lunch-meats, .menu-dinner-meats, .menu-vegs-food{
+
+        display: flex;
+        flex-direction: row;
+    }
+    .menu-lunch-meats-left, .menu-dinner-meats-left, .menu-vegs-food-left{
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        border-right: solid white .8px;
+        margin: 2% 0;
+
+
+    }
+    .menu-lunch-meats-right, .menu-dinner-meats-right, .menu-vegs-food-right{
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin: 2% 0;
+
+    }
+    .meat{
+        width: 100%;
+        height: 150px;
+        padding: 0;
+    }
+    .meat.pasta{
+        margin-top: 40px;
+    }
+
+    .meat-brasil{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .meat-uk{
+        color: #f79a42;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .meat-description{
+        font-size: 12px;
+    }
+    .meat-butcher{
+        margin: 2% 0;
+        width: 100%;
+        height: 250px;
+        padding: 0;
+    }
+    .price-text{
+        color: #f79a42;
+        font-weight: 400;
+    }
+
+}

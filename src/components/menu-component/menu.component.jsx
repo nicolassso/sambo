@@ -163,7 +163,7 @@ function Menu() {
                             </div>
                         </div>
                         <div className="menu-vegs-food-right">
-                            <div className="meat pasta">
+                            <div className="meat fish">
                                 <h1 className="meat-brasil">PEIXE / FISH</h1>
                                 <h1 className="meat-uk">SALMON OR SEABASS</h1>
                                 <p className="meat-description">

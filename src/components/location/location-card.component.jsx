@@ -12,7 +12,6 @@ function LocationCard({title, image}){
     return(
         <div className='location-card'>
             <div className="location-img-container"
-            onClick={handleClick}
             >
             {/* <img className={`${title}-img`} 
             src={image} 

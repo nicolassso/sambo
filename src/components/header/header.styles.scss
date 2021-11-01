@@ -55,6 +55,7 @@
         color: var(--textWhite);
         font-size: 13px;
         transition-duration: .5s;
+        
 
       }
       #aboutus{
@@ -77,11 +78,17 @@
       }
       .option:hover{
         color:var(--pink);
+        
+      }
+      .option:focus{
+        color: var(--pink);
       }
     }
   }
+
+
   
-@media screen and (max-width:810px){
+@media screen and (max-width:500px){
 
   @keyframes fadeIn {
     0% {opacity: 0;
@@ -93,7 +100,7 @@
  } 
 
   .header.active{
-    background: rgba($color: #000000, $alpha: 0.7);
+    background: rgba($color: #000000, $alpha: 0.8);
     height: 80px;
     max-width: 100vw;
 
@@ -106,19 +113,23 @@
     .menu-icon {
       display: block;
       position: absolute;
-      top: 5%;
+      top: 1%;
       right: 0;
       transform: translate(-100%, 60%);
       font-size: 1.5rem;
       cursor: pointer;
       color: var(--textWhite);
+      z-index: 4;
+
     }
     /* Botón cerrar menú móvil */
     .fa-times {
       color: var(--textWhite);
       font-size: 1.5rem;
-      margin-top: 2%;
+      margin-top: 1%;
       padding-right: 3px;
+      z-index: 4;
+
     }
     .options {
       width: auto;
@@ -126,8 +137,9 @@
       display: flex;
       text-align: center;
       align-items: center;
-      justify-content: flex-end;
-      padding: 25px 100px 5px 5px;
+      justify-content: center;
+      z-index: 3;
+
     }
     .header-menu {
       display: none;
@@ -137,11 +149,10 @@
       width: 100%;
       height: 100%;
       position: absolute;
-      top: 110px;
+      top: 80px;
       right: -100%;
       opacity: 0.1;
-      transition: all 1s ease;
-      margin-left: 0;
+      transition: all .4s ease;
       text-align: center;
       #spacer{
         display: none;
@@ -151,14 +162,14 @@
 
     .header-menu.active {
       display: flex;
-      width: 100vw;
+      width: 100%;
       flex-direction: column;
       justify-content: center;
       background: rgba($color: #000000, $alpha: 0.8);
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
-      z-index: 1;
+      z-index: 3;
       text-align: center;
       padding-inline-start: 0;
 
@@ -182,20 +193,12 @@
       justify-content: center;
     }
     .option:hover{
-      background: rgba($color: #000000, $alpha: 0.5);
     }
     .option.active{
       text-align: center;
-      padding: 2rem;
       width: 100%;
       display: table;
     }    
   }
   
-}
-
-@media screen and (max-width: 340px){
-  .header.active{
-      width: 100vw;
-  }
 }
