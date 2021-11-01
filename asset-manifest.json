@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/sambo/static/css/main.accf0abb.chunk.css",
-    "main.js": "/sambo/static/js/main.4360485c.chunk.js",
-    "main.js.map": "/sambo/static/js/main.4360485c.chunk.js.map",
+    "main.css": "/sambo/static/css/main.b12291fd.chunk.css",
+    "main.js": "/sambo/static/js/main.a58205eb.chunk.js",
+    "main.js.map": "/sambo/static/js/main.a58205eb.chunk.js.map",
     "runtime-main.js": "/sambo/static/js/runtime-main.1ca428d4.js",
     "runtime-main.js.map": "/sambo/static/js/runtime-main.1ca428d4.js.map",
     "static/css/2.4659568d.chunk.css": "/sambo/static/css/2.4659568d.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.f72a7028.chunk.js.map": "/sambo/static/js/2.f72a7028.chunk.js.map",
     "index.html": "/sambo/index.html",
     "static/css/2.4659568d.chunk.css.map": "/sambo/static/css/2.4659568d.chunk.css.map",
-    "static/css/main.accf0abb.chunk.css.map": "/sambo/static/css/main.accf0abb.chunk.css.map",
+    "static/css/main.b12291fd.chunk.css.map": "/sambo/static/css/main.b12291fd.chunk.css.map",
     "static/js/2.f72a7028.chunk.js.LICENSE.txt": "/sambo/static/js/2.f72a7028.chunk.js.LICENSE.txt",
     "static/media/bookingpage.styles.scss": "/sambo/static/media/wood-fire2.220aee6f.jpg",
     "static/media/menupage.styles.scss": "/sambo/static/media/weymouth-harbour-dorset.bb648cbb.jpg",
@@ -23,14 +23,14 @@
     "static/media/sambo-logo.05a2ff4c.png": "/sambo/static/media/sambo-logo.05a2ff4c.png",
     "static/media/location-card.styles.scss": "/sambo/static/media/sambo-menu-img.dcc8a165.jpg",
     "static/media/sambo-rodizio-grill.99261ddd.png": "/sambo/static/media/sambo-rodizio-grill.99261ddd.png",
-    "static/media/solo-fogo-a.1f5c4580.mp4": "/sambo/static/media/solo-fogo-a.1f5c4580.mp4",
+    "static/media/landing-video.styles.scss": "/sambo/static/media/solo-fogo-a.1f5c4580.mp4",
     "static/media/about-us.styles.scss": "/sambo/static/media/wood-fire.8a4a4ccd.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1ca428d4.js",
     "static/css/2.4659568d.chunk.css",
     "static/js/2.f72a7028.chunk.js",
-    "static/css/main.accf0abb.chunk.css",
-    "static/js/main.4360485c.chunk.js"
+    "static/css/main.b12291fd.chunk.css",
+    "static/js/main.a58205eb.chunk.js"
   ]
 }
