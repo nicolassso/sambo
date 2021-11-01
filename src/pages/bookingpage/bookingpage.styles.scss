@@ -1,9 +1,34 @@
 .bookingpage{
-    padding-top: 50px;
+    padding: 50px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: var(--textWhite);
-    height: 100vh;
-    background: url('../../assets/images/wood-fire2.jpg');
+    height: 100%;
+    background-image:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9) ), url('../../assets/images/wood-fire2.jpg');
+    background-position: top;
+}
+.booking-text{
+    margin: 20px 0 50px 0;
+    width: 100%;
+    padding: 40px 20%;
+    text-align: center;
+    color: var(--textWhite);
+    font-weight: 500;
+    line-height: 28px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9) ), url(../../assets/images/KNIFE.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.bookingpage{
+    .location{
+        .location-card{
+            .location-img-container{
+                background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8) ), url('../../assets/images/sparkles.jpg');
+                background-position: bottom;
+            }
+        }
+    }
 }

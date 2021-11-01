@@ -21,13 +21,13 @@ const MenuView = () => {
                         </Link>
                     </div>
                     <div className="location-chosen">
-                        <h1>{location.state.title.toUpperCase()} MENU</h1>
+                        <h1>{location.state.title.toUpperCase()}</h1>
                     </div>
                 </div>
-
-            {/* location==='poole' ? <MenuPoole>
-            */}
-            <Menu />
+            {
+                location.state.title==='weymouth' ? <Menu />
+                : <MenuPoole />
+            }
 
             </div>
         </>

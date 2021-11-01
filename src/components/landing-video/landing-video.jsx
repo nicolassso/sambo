@@ -1,6 +1,6 @@
 import React from 'react'
 import './landing-video.styles.scss'
-import SoloFogo from '../../assets/videos/FOGO720.mov'
+import SoloFogo from '../../assets/videos/solo-fogo-a.mp4'
 import Sambo from '../../assets/images/sambo-rodizio-grill.png'
 
 const LandingVideo = () => (
@@ -10,6 +10,7 @@ const LandingVideo = () => (
                 className="solo-fogo-video"
                 autoPlay
                 loop
+                playsinline
                 muted>
                 <source src={SoloFogo} type="video/mp4" />
             </video>

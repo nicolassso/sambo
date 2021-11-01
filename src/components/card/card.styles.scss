@@ -1,67 +1,33 @@
-.card__content{
+.card__content{    
     text-align: center;
     position: relative;
-    transition: transform 2s;
-    transform-style: preserve-3d;
-
-}
-
-.card__background{
-    width: 300px;
-    transform: translate(-13.3px, -2px);
-    height: 450px;
-    position: relative;
-    margin-bottom: 20px;
-    
-    // transition-property: width;
-    // transition-delay: 700ms;
-    // transition-duration: 700ms;
-}
-
-//TRYING TO MAKE THE CARD SCREEN WIDTH ONCE IT TURNS
-// .card1:hover .card__background{
-//     width: 80vw;
-//     height:450px;
-// }
-
-
-.card__front, .card__back{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    transform-style: preserve-3d;
-
 }
 .card__front{
     .card__title{
-        transform: translateZ(5rem);
-        backface-visibility: hidden;
-        color: var(--textWhite);
+        font-size: 40px;
+        font-weight: bold;
+        transition-duration: .5s;
+
     }
 }
 
+// .card__background{
+//     width: 300px;
+//     height: 450px;
+//     position: relative;
+//     margin-bottom: 20px;    
+// }
+
 
 .card__back{
-    transform: rotateY(0.5turn);
+
     text-align: center;
     display: flex;
     justify-content: center;
     
     .card__text{
         background: rgba($color: #000000, $alpha: 0.7);
-        position: absolute;
-        top: 150px;
-        transform: translateZ(5rem);
+        width: 60%;
     }
 
-    .card__title__back{
-        transform: translateZ(5rem);
-        backface-visibility: hidden;
-        position: absolute;
-        top:470px;
-        display:none;
-
-    }
 }

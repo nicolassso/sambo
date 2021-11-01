@@ -9,12 +9,14 @@ const cards = CARD_DATA;
 
 function CardList() {
   return (
-  <div className='container d-flex justify-content-center align-items-center'>
+  <div className='cardlist-container'>
     <div className="row">
       {
         cards.map(card => (
-          <div className={`card card${card.id}`} key={card.id} >
-            <Card title={card.title} description={card.description} image={card.image} />
+          <div className={`${card.title.toLowerCase()}-wrapper`}>
+            <div className={`card card${card.id}`} key={card.id} >
+              <Card title={card.title} description={card.description} image={card.image} />
+            </div>
           </div>)
         )
       }

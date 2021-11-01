@@ -6,7 +6,7 @@ function Card({title, image, description}){
     <div className="card__content">
 
       <div className="card__front">
-        <img className='card__background' src={image} alt="" />
+        {/* <img className='card__background' src={image} alt="" /> */}
 
         <h4 className="card__title">{title.toUpperCase()}</h4>
 
@@ -14,9 +14,6 @@ function Card({title, image, description}){
 
       <div className="card__back">
         <div className="card__text">{description}</div>
-
-        <h4 className="card__title__back">{title.toUpperCase()}</h4>
-
       </div>
 
     </div>)

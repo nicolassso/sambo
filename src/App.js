@@ -19,7 +19,7 @@ import './App.scss';
 function App() {
   return (
     <div>
-        <TopSocialMedia />
+        {/* <TopSocialMedia /> */}
         <Header/>
         <Switch>
           <Route exact path='/sambo' component={HomePage} />

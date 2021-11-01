@@ -11,12 +11,14 @@ function LocationCard({title, image}){
     }
     return(
         <div className='location-card'>
-            <div className="location-img-container">
-            <img className={`${title}-img`} 
+            <div className="location-img-container"
+            onClick={handleClick}
+            >
+            {/* <img className={`${title}-img`} 
             src={image} 
             alt={title}
             onClick={handleClick}
-            />
+            /> */}
         </div>
         <div className="location-title-container">  
           <h4 className="title-location">{title.toUpperCase()}</h4>

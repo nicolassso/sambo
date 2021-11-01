@@ -1,21 +1,43 @@
-@keyframes fadeLeft {
-    0% {left:0px; opacity: 0.2}
+.row{
+    margin-bottom: 180px;
+}
+.cardlist-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card{
+    display: flex;
+    align-items: center;
     position: relative;
     height: 448px;
-    width: 298px; 
+    width: 48vw; 
     margin: 20px;
-    background: none;
     margin-bottom: 150px;
+    text-align: center;
 
-    animation: fadeLeft 1s linear 2s;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../../assets/images/bonfire.jpg');
+    background-position: center top;
+    width: 70vw;
+    padding-top: 30px;
+    transition-duration: .4s;
+
+
+    &:hover{
+        padding-top: 90px;
+        width: 97vw;
+
+        .card__title{
+            margin-bottom: 30px;
+        }
+    }
 
 }
-.card:hover .card__content{
-    transform: rotateY(0.5turn);
-    
+
+.buffet-wrapper, .cocktails-wrapper{
+    display: flex;
+    justify-content: end;
 }
 
 @media screen and (max-width:690px){

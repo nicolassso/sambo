@@ -5,7 +5,7 @@ function Menu() {
     return(
         <div className="menu">
             <div className="menu-lunch">
-                <div className="menu-lunch-header">
+                {/* <div className="menu-lunch-header">
                     <div className="menu-lunch-header-img-left"></div>
                     <div className="menu-lunch-header-text">
                         <h1>TABLE SYSTEM</h1>
@@ -18,14 +18,14 @@ function Menu() {
                         Once you are ready for the meats, just turn your card green side up and the chefs will bring out the sizzling skewers of meat stright from the grill one by one, turn the red side up to indicate you need a break. <br />
                         Use the card to control the service to your on pace, and enjoy the unique RODIZIO CONCEPT
                     </p>
-                </div>
+                </div> */}
                 <div className="menu-lunch-prices">
                     <div className="menu-lunch-prices-header">
                         <h1>LUNCH MENU</h1>
                     </div>
                     <div className="menu-lunch-prices-body">
-                        <b className='price-text'>SELECTION OF 8 MEATS</b> THURSDAY TO SUNDAY: <b className='price-text'>18,95</b> <br />
-                        CHILDREN UP TO 4 YEARS <b className='price-text'>FREE</b> - 5 TO 8: <b className='price-text'>6,95</b> - 9 TO 13: <b className='price-text'>12,50</b>
+                        <b className='price-text'>SELECTION OF 8 MEATS</b> <br /> THURSDAY TO SUNDAY: <b className='price-text'>18,95</b> <br />
+                        CHILDREN UP TO 4 YEARS <b className='price-text'>FREE</b> <br /> 5 TO 8 YEARS: <b className='price-text'>6,95</b><br /> 9 TO 13 YEARS: <b className='price-text'>12,50</b>
                     </div>
                 </div>
                 <div className="menu-lunch-meats">
@@ -82,7 +82,7 @@ function Menu() {
                 <div className="menu-dinner-header">
                     <div className="menu-dinner-header-top"><h1>DINNER MENU</h1></div>
                     <div className="menu-dinner-header-text"><b className='price-text'>A SELECTION OF 14 MEATS, INCLUDING LUNCH MENU PLUS 6 CUTS</b> <br />
-                        MONDAY TO THURSDAY: <b className='price-text'>26,85</b> FRIDAY TO SUNDAY: <b className='price-text'>28,95</b></div>
+                        MONDAY TO THURSDAY: <b className='price-text'>26,85</b><br /> FRIDAY TO SUNDAY: <b className='price-text'>28,95</b></div>
                     </div>
                 <div className="menu-dinner-meats">
                     <div className="menu-dinner-meats-left">

@@ -4,6 +4,32 @@
     flex-direction: column;
     align-items: center;
     color: var(--textWhite);
-    height: 100vh;
-    background: url('../../assets/images/navy-blue.jpg');
+    height: 100%;
+    background: url('../../assets/images/background-plam-leave.png');
+}
+.menupage-text{
+    margin: 20px 0 50px 0;
+    width: 100%;
+    padding: 40px 20%;
+    text-align: center;
+    color: var(--textWhite);
+    font-weight: 500;
+    line-height: 28px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) ), url(../../assets/images/weymouth-harbour-dorset.jpg);
+    background-position: center bottom;
+    background-size: cover;
+
+}
+
+.menupage-concept{
+    width: 100%;
+    margin: 30px 0px 80px 0px;
+    padding: 40px 20%;
+    text-align: center;
+    color: var(--textWhite);
+    font-weight: 500;
+    line-height: 28px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8) ), url(../../assets/images/navy-blue.jpg);
+    background-position: center;
+    background-size: cover;
 }
