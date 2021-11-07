@@ -5,7 +5,9 @@
     align-items: center;
     color: var(--textWhite);
     height: 100%;
-    background: url('../../assets/images/background-plam-leave.png');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2) ),  url(../../assets/images/dark-blue.jpg);
+    background-position: center;
+    background-size: cover;
 }
 .menupage-text{
     margin: 20px 0 50px 0;
@@ -15,8 +17,8 @@
     color: var(--textWhite);
     font-weight: 500;
     line-height: 28px;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2) ), url(../../assets/images/weymouth-harbour-dorset.jpg);
-    background-position: center bottom;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2) ),  url(../../assets/images/background-plam-leave.png);
+    background-position: center;
     background-size: cover;
 
 }
@@ -47,9 +49,9 @@
         color: var(--textWhite);
         font-weight: 500;
         line-height: 28px;
-        background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2) ), url(../../assets/images/weymouth-harbour-dorset.jpg);
-        background-position: bottom;
-        background-size:auto;
+        background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2) ),  url(../../assets/images/background-plam-leave.png);
+        background-position: center;
+        background-size: cover;
     
     }
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, useLocation } from "react-router-dom"
+import useEffect from 'react';
 
 import Menu from '../../components/menu-component/menu.component';
 import MenuPoole from '../../components/menu-component/menu.component-poole'
@@ -10,7 +11,6 @@ import './menu-view.styles.scss'
 
 const MenuView = () => {
     const location = useLocation();
-
     return(
         <>
             <div className="menuview">

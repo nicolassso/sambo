@@ -20,16 +20,17 @@ const Voucher = () => {
     return (
 
     <div className="voucher">
-        <div className="image-wrapper">
-            <img className='voucher-img' src={voucherimg} alt="" />
-        </div>
-
         <div className="voucher-text">
             <span className='voucher-span'>SHARE A CHURRASCO ART EXPERIENCE <br /> WITH OUR GIFT CARD</span>
 
         </div>
+        <div className="image-wrapper">
+            <img className='voucher-img' src={voucherimg} alt="" />
+        </div>
+
+        
         <div className="voucher-iframe-sambo">
-        <iframe src="https://cdn.giftup.app/dist/checkout.html?site=0a236ea1-8280-48c7-81ac-47bf567c4680&amp;environment=Production&amp;instance=x6z6zfoa87d" frameborder="0" width="100%" height="633px" id="gift-up-iframe" name="x6z6zfoa87d" allowpaymentrequest="" data-gift-up-height="524px"></iframe>        </div>  
+        <iframe src="https://cdn.giftup.app/dist/checkout.html?site=0a236ea1-8280-48c7-81ac-47bf567c4680&amp;environment=Production&amp;instance=x6z6zfoa87d" frameBorder="0" width="100%" height="633px" id="gift-up-iframe" name="x6z6zfoa87d" allowpaymentrequest="" data-gift-up-height="524px"></iframe>        </div>  
 
     </div>
     )

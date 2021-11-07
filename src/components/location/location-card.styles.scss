@@ -44,8 +44,10 @@
 }
 .title-location{
     padding-top: 20px;
-    transform: translateZ(5rem);
+    font-size: 20px;
     color: rgba($color: #c5c5c5, $alpha: 1.0);
+    font-weight: 600;
+
 }
 
 
@@ -77,7 +79,7 @@
         display: flex;
         flex-direction: column;
         width: 80vw;
-        height: 450px;
+        height: 350px;
     }
     
     .location-img-container{

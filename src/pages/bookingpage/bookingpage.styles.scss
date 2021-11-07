@@ -5,7 +5,7 @@
     align-items: center;
     color: var(--textWhite);
     height: 100%;
-    background-image:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9) ), url('../../assets/images/wood-fire2.jpg');
+    background-image:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9) ), url('../../assets/images/sparkles.jpg');
     background-position: top;
 }
 .booking-text{
@@ -16,8 +16,8 @@
     color: var(--textWhite);
     font-weight: 500;
     line-height: 28px;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9) ), url(../../assets/images/KNIFE.png);
-    background-position: center;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9) ), url(../../assets/images/wood-fire.jpg);
+    background-position: center bottom;
     background-size: cover;
 
 }
@@ -26,7 +26,7 @@
     .location{
         .location-card{
             .location-img-container{
-                background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8) ), url('../../assets/images/sparkles.jpg');
+                background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8) ), url('../../assets/images/sambo_img_fuego.png');
                 background-position: bottom;
             }
         }
@@ -46,9 +46,9 @@
         color: var(--textWhite);
         font-weight: 500;
         line-height: 28px;
-        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9) ), url(../../assets/images/KNIFE.png);
-        background-position: 20% 50%;
-        background-size:auto;
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9) ), url(../../assets/images/wood-fire.jpg);
+        background-position: center bottom;
+        background-size:cover;
     
     }
 

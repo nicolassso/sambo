@@ -10,11 +10,11 @@ const Footer = () => (
         <section className="section-left">
             <h1>CONTACT</h1>
             <h3>PHONE</h3>
-            <a href='tel: +44 1305 457870'><i class="fa fa-phone "  style={{
+            <a href='tel: +44 1305 457870'><i className="fa fa-phone "  style={{
                 color: 'var(--textWhite)'
             }}></i> +44 1305 457870</a>
             <h3>EMAIL</h3>
-            <a href='mailto: info@samborodizio.co.uk'><i class="far fa-envelope" style={{
+            <a href='mailto: info@samborodizio.co.uk'><i className="far fa-envelope" style={{
                 color: 'var(--textWhite)'
             }}></i> info@samborodizio.co.uk</a>
         </section>
@@ -51,7 +51,7 @@ const Footer = () => (
                     <div className="footer-poole-body">
                         <p> The Quay <br />
                             Poole <br />
-                            BH15 <br />
+                            BH15 1HU<br />
                             UNITED KINGDOM</p>
                     </div>                        
                 </div>

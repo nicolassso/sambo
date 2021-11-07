@@ -5,6 +5,8 @@ import Header from './components/header/header.component';
 import TopSocialMedia from './components/top-social-media/top-social-media.component';
 import Footer from './components/footer/footer.component';
 
+import { ScrollService } from './services/scrollService.component';
+
 import HomePage from './pages/homepage/homepage.component';
 import MenuPage from './pages/menupage/menupage.component';
 import BookingPage from './pages/bookingpage/bookingpage.component';
@@ -21,19 +23,16 @@ function App() {
     <div>
         {/* <TopSocialMedia /> */}
         <Header/>
+        <ScrollService>
         <Switch>
           <Route exact path='/sambo' component={HomePage} />
           <Route path='/menu-location' component={MenuPage} />
           <Route path='/booking-location' component={BookingPage} />
           <Route path='/booking' component={BookingView} />
-          <Route path='/aboutus' component={AboutUs} />
-          {/* location==='poole' ? <Route path='/menu-poole' component={MenuPoole}
-          : <Route path='/menu' component={Menu} />
-          */}
+          <Route path='/aboutus' component={AboutUs} />          
           <Route path='/menu' component={MenuView} />
-
-
         </Switch>
+        </ScrollService>
         <Footer />
       </div>
   );
