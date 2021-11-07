@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/sambo/static/css/main.b12291fd.chunk.css",
-    "main.js": "/sambo/static/js/main.a58205eb.chunk.js",
-    "main.js.map": "/sambo/static/js/main.a58205eb.chunk.js.map",
+    "main.css": "/sambo/static/css/main.c3544753.chunk.css",
+    "main.js": "/sambo/static/js/main.0f3f656d.chunk.js",
+    "main.js.map": "/sambo/static/js/main.0f3f656d.chunk.js.map",
     "runtime-main.js": "/sambo/static/js/runtime-main.1ca428d4.js",
     "runtime-main.js.map": "/sambo/static/js/runtime-main.1ca428d4.js.map",
     "static/css/2.4659568d.chunk.css": "/sambo/static/css/2.4659568d.chunk.css",
@@ -10,10 +10,9 @@
     "static/js/2.f72a7028.chunk.js.map": "/sambo/static/js/2.f72a7028.chunk.js.map",
     "index.html": "/sambo/index.html",
     "static/css/2.4659568d.chunk.css.map": "/sambo/static/css/2.4659568d.chunk.css.map",
-    "static/css/main.b12291fd.chunk.css.map": "/sambo/static/css/main.b12291fd.chunk.css.map",
+    "static/css/main.c3544753.chunk.css.map": "/sambo/static/css/main.c3544753.chunk.css.map",
     "static/js/2.f72a7028.chunk.js.LICENSE.txt": "/sambo/static/js/2.f72a7028.chunk.js.LICENSE.txt",
-    "static/media/bookingpage.styles.scss": "/sambo/static/media/wood-fire2.220aee6f.jpg",
-    "static/media/menupage.styles.scss": "/sambo/static/media/weymouth-harbour-dorset.bb648cbb.jpg",
+    "static/media/menupage.styles.scss": "/sambo/static/media/navy-blue.323aca97.jpg",
     "static/media/blue-fire.c82ace65.jpg": "/sambo/static/media/blue-fire.c82ace65.jpg",
     "static/media/card-list.styles.scss": "/sambo/static/media/bonfire.099d46fa.jpg",
     "static/media/buffet.c912bb2f.jpeg": "/sambo/static/media/buffet.c912bb2f.jpeg",
@@ -23,6 +22,7 @@
     "static/media/sambo-logo.05a2ff4c.png": "/sambo/static/media/sambo-logo.05a2ff4c.png",
     "static/media/location-card.styles.scss": "/sambo/static/media/sambo-menu-img.dcc8a165.jpg",
     "static/media/sambo-rodizio-grill.99261ddd.png": "/sambo/static/media/sambo-rodizio-grill.99261ddd.png",
+    "static/media/bookingpage.styles.scss": "/sambo/static/media/sparkles.3d7c8d61.jpg",
     "static/media/landing-video.styles.scss": "/sambo/static/media/solo-fogo-a.1f5c4580.mp4",
     "static/media/about-us.styles.scss": "/sambo/static/media/wood-fire.8a4a4ccd.jpg"
   },
@@ -30,7 +30,7 @@
     "static/js/runtime-main.1ca428d4.js",
     "static/css/2.4659568d.chunk.css",
     "static/js/2.f72a7028.chunk.js",
-    "static/css/main.b12291fd.chunk.css",
-    "static/js/main.a58205eb.chunk.js"
+    "static/css/main.c3544753.chunk.css",
+    "static/js/main.0f3f656d.chunk.js"
   ]
 }
