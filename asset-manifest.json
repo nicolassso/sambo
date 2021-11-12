@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/sambo/static/css/main.c3544753.chunk.css",
-    "main.js": "/sambo/static/js/main.0f3f656d.chunk.js",
-    "main.js.map": "/sambo/static/js/main.0f3f656d.chunk.js.map",
+    "main.css": "/sambo/static/css/main.78fb18e1.chunk.css",
+    "main.js": "/sambo/static/js/main.7a6529a2.chunk.js",
+    "main.js.map": "/sambo/static/js/main.7a6529a2.chunk.js.map",
     "runtime-main.js": "/sambo/static/js/runtime-main.1ca428d4.js",
     "runtime-main.js.map": "/sambo/static/js/runtime-main.1ca428d4.js.map",
     "static/css/2.4659568d.chunk.css": "/sambo/static/css/2.4659568d.chunk.css",
@@ -10,15 +10,15 @@
     "static/js/2.f72a7028.chunk.js.map": "/sambo/static/js/2.f72a7028.chunk.js.map",
     "index.html": "/sambo/index.html",
     "static/css/2.4659568d.chunk.css.map": "/sambo/static/css/2.4659568d.chunk.css.map",
-    "static/css/main.c3544753.chunk.css.map": "/sambo/static/css/main.c3544753.chunk.css.map",
+    "static/css/main.78fb18e1.chunk.css.map": "/sambo/static/css/main.78fb18e1.chunk.css.map",
     "static/js/2.f72a7028.chunk.js.LICENSE.txt": "/sambo/static/js/2.f72a7028.chunk.js.LICENSE.txt",
-    "static/media/menupage.styles.scss": "/sambo/static/media/navy-blue.323aca97.jpg",
-    "static/media/blue-fire.c82ace65.jpg": "/sambo/static/media/blue-fire.c82ace65.jpg",
-    "static/media/card-list.styles.scss": "/sambo/static/media/bonfire.099d46fa.jpg",
-    "static/media/buffet.c912bb2f.jpeg": "/sambo/static/media/buffet.c912bb2f.jpeg",
-    "static/media/cocktails.31cdf4b6.jpeg": "/sambo/static/media/cocktails.31cdf4b6.jpeg",
+    "static/media/card-list.styles.scss": "/sambo/static/media/background-palm-leave.f5152881.png",
+    "static/media/buffet_SAMBO.8c4aae54.png": "/sambo/static/media/buffet_SAMBO.8c4aae54.png",
+    "static/media/cocktails_SAMBO.3c87bdf9.png": "/sambo/static/media/cocktails_SAMBO.3c87bdf9.png",
+    "static/media/menupage.styles.scss": "/sambo/static/media/dark-blue.9144f5a8.jpg",
+    "static/media/footer.styles.scss": "/sambo/static/media/footer-sambo-background-left.85f2c42d.png",
     "static/media/gift_card.b837ba47.png": "/sambo/static/media/gift_card.b837ba47.png",
-    "static/media/rodizio.65771b03.jpeg": "/sambo/static/media/rodizio.65771b03.jpeg",
+    "static/media/rodizio_SAMBO.bc92b91d.png": "/sambo/static/media/rodizio_SAMBO.bc92b91d.png",
     "static/media/sambo-logo.05a2ff4c.png": "/sambo/static/media/sambo-logo.05a2ff4c.png",
     "static/media/location-card.styles.scss": "/sambo/static/media/sambo-menu-img.dcc8a165.jpg",
     "static/media/sambo-rodizio-grill.99261ddd.png": "/sambo/static/media/sambo-rodizio-grill.99261ddd.png",
@@ -30,7 +30,7 @@
     "static/js/runtime-main.1ca428d4.js",
     "static/css/2.4659568d.chunk.css",
     "static/js/2.f72a7028.chunk.js",
-    "static/css/main.c3544753.chunk.css",
-    "static/js/main.0f3f656d.chunk.js"
+    "static/css/main.78fb18e1.chunk.css",
+    "static/js/main.7a6529a2.chunk.js"
   ]
 }
