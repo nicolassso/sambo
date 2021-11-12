@@ -9,16 +9,13 @@
     background-position: top;
 }
 .booking-text{
-    margin: 20px 0 50px 0;
+    margin: 20px 0 0 0;
     width: 100%;
-    padding: 40px 20%;
+    padding: 40px 10%;
     text-align: center;
     color: var(--textWhite);
     font-weight: 500;
     line-height: 28px;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9) ), url(../../assets/images/wood-fire.jpg);
-    background-position: center bottom;
-    background-size: cover;
 
 }
 
@@ -46,9 +43,6 @@
         color: var(--textWhite);
         font-weight: 500;
         line-height: 28px;
-        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9) ), url(../../assets/images/wood-fire.jpg);
-        background-position: center bottom;
-        background-size:cover;
     
     }
 

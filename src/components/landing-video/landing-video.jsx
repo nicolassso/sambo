@@ -13,7 +13,7 @@ function LandingVideo(){
                         className="solo-fogo-video"
                         autoPlay
                         loop
-                        playsinline
+                        playsInline
                         muted>
                         <source src={SoloFogo} type="video/mp4" />
                     </video>
@@ -24,7 +24,6 @@ function LandingVideo(){
             <div className="sambo-grill-container">
                 <img className="sambo-grill" src={Sambo} />
             </div>
-            <div className="blank-div"></div>
         </div>
     )
 }

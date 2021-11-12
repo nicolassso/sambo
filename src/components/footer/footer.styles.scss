@@ -1,98 +1,29 @@
 .footer{
-    height: 300px;
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    color: var(--textWhite);
-    background: rgba($color: #000000, $alpha: 0.3);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 30px 100px 50px 100px;
-    
-    h1{
-        font-size: 24px;
-        color: var(--navyBlue);
-        font-weight: bold;
-        margin-bottom: 30px;
-    }
-    h3{
-        font-size: 18px;
-        margin: 20px 10px;
-        color: var(--orange);
-    }
-    p{
-        font-size: 15px;
-        line-height: 30px;
-    }
-}
-
-.section-addresses{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.footer-weymouth{
-    margin-right: 50px;
-}
-
-.section-center{
-
-    display: flex;
-    align-items: center;
-    .logo-container{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) ), url('../../assets/images/footer-sambo-background-left.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    .footer-top{
+        height: 516px;
         display: flex;
-        flex-direction: row;        
-        .sambo-logo{
-            width: 60px;
-            filter: invert(65%);
-            margin-right: 10px;
+        flex-direction: row;
+        .footer-top-left, .footer-top-right{
+            width: 50%;
+            height: 100%;
+        }
+        .footer-top-left{
+        }
+        .footer-top-right{
+            background: black;
         }
     }
-    .footer-sambo{
-        color: var(--textWhite);
-        font-size: 12px;
-        padding-top: 20px;
-    }
-}
-@media screen and (max-width:690px){
-    .footer{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        height: auto;
-        width: 100vw;
-        color: var(--textWhite);
-        background: rgba($color: #000000, $alpha: 0.3);
-        padding: 60px 15px 100px 15px;
-        .footer-weymouth{
-            margin-right: 0;
-        }
-        .section-right{
-            margin-top: 60px;
-        }
-        .section-addresses{
-            display: flex;
-            flex-direction: column;
-        }
-        .section-center{
-            order: 3;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 30px 0;
-            .logo-container{
-                display: flex;
-                flex-direction: row;        
-                .sambo-logo{
-                    width: 60px;
-                    filter: invert(65%);
-                }
-            }
-            .footer-sambo{
-                color: var(--textWhite);
-                font-size: 12px;
-                padding-top: 20px;
-            }
-        }
+    .footer-bottom{
+        height: 74px;
+        width: 100%;
+        background: #0c1418;
 
     }
-  }
+}
