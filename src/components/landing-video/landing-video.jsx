@@ -2,6 +2,9 @@ import React from 'react'
 import './landing-video.styles.scss'
 import SoloFogo from '../../assets/videos/solo-fogo-a.mp4'
 import Sambo from '../../assets/images/sambo-rodizio-grill.png'
+import CustomButton from '../custom-button/custom-button.component'
+
+import { Link } from 'react-router-dom'
 
 function LandingVideo(){
     const widthWindow = window.innerWidth;
@@ -23,6 +26,11 @@ function LandingVideo(){
             </div>
             <div className="sambo-grill-container">
                 <img className="sambo-grill" src={Sambo} />
+            </div>
+            <div className="landing-button">
+                <Link to='/booking-location'>
+                    <CustomButton>BOOKING</CustomButton>
+                </Link>
             </div>
         </div>
     )

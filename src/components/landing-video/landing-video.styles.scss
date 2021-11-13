@@ -27,11 +27,33 @@
     
     .sambo-grill{
         width: 250px;
-        transform: translate(3%, -60%);
+        transform: translate(3%, -45%);
         animation: logoOpacity 4s;
         animation-iteration-count: infinite;
         // opacity: .1;
         // transition: opacity 500ms ease-in-out;
+    }
+    .landing-button{
+        .custom-button{
+            transform: translate(3%, 0);
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #150B11;
+            letter-spacing: 3px;
+            font-size: 10px;
+            font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+            font-weight: 600;
+            background-color: #F16788;
+            height: 40px;
+            &:hover {
+                background-color: #c99872;
+                color: #150B11;
+                outline: none;
+              }
+        }
+        
     }
 
     @keyframes logoOpacity {
