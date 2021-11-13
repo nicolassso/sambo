@@ -47,13 +47,13 @@ const Footer = () => (
                         <h4>PHONE</h4>
                     </div>
                     <div className="top-right-content-box-contact">
-                        <a>+44 1305 457870</a>
+                        <a href="tel:+44 1305 457870">+44 1305 457870</a>
                     </div>
                     <div className="top-right-content-box-title-2">
                         <h4>EMAIL</h4>
                     </div>
                     <div className="top-right-content-box-contact">
-                        <a>info@samborodizio.co.uk</a>
+                        <a href="mailto:info@samborodizio.co.uk">info@samborodizio.co.uk</a>
                     </div>
                     <div className="top-right-content-box-title-2">
                         <h4>ADDRESS</h4>
