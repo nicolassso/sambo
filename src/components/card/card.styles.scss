@@ -41,12 +41,13 @@
 
 
 
-@media screen and (max-width:500px){
+@media screen and (max-width:980px){
 
     .cards{
         display: flex;
         align-items: center;
         position: relative;
+        justify-content: center;
         height: 100%;
         width: 100%;
         margin: 20px;

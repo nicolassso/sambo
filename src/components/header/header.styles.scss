@@ -50,10 +50,13 @@
 
   
       .option {
+        font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
         padding: 10px 15px;
         cursor: pointer;
         color: var(--textWhite);
-        font-size: 13px;
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: 300;
         transition-duration: .5s;
         
 
@@ -88,7 +91,7 @@
 
 
   
-@media screen and (max-width:500px){
+@media screen and (max-width:980px){
 
   @keyframes fadeIn {
     0% {opacity: 0;

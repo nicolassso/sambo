@@ -6,7 +6,7 @@ import Location from '../../components/location/location.component';
 const MenuPage = () => (
     <div className="menupage">
         <div className="menupage-text">
-            <h1 style={{fontSize:'24px', color: 'var(--textWhite)', fontFamily:'Courgette, Arial, cursive'}}>Select your favourite location</h1>
+            <h1>SELECT YOUR FAVOURITE LOCATION</h1>
         </div>
         <Location service='menu' destino='menu' />
         <div className="menupage-concept">

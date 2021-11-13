@@ -26,6 +26,7 @@
             line-height: 1.5em;
             font-size: 30px;
             color: var(--textWhite);
+            font-weight: 700;
         }
     }
     .cardlist-text-body{
@@ -49,7 +50,7 @@
     justify-content: center;
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:980px){
     .cardlist-container{
         display: flex;
         justify-content: center;
