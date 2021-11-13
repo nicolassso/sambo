@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sambo/static/css/main.e6684c50.chunk.css",
-    "main.js": "/sambo/static/js/main.ff1adb18.chunk.js",
-    "main.js.map": "/sambo/static/js/main.ff1adb18.chunk.js.map",
+    "main.js": "/sambo/static/js/main.44804327.chunk.js",
+    "main.js.map": "/sambo/static/js/main.44804327.chunk.js.map",
     "runtime-main.js": "/sambo/static/js/runtime-main.1ca428d4.js",
     "runtime-main.js.map": "/sambo/static/js/runtime-main.1ca428d4.js.map",
     "static/css/2.4659568d.chunk.css": "/sambo/static/css/2.4659568d.chunk.css",
@@ -31,6 +31,6 @@
     "static/css/2.4659568d.chunk.css",
     "static/js/2.a759fe1a.chunk.js",
     "static/css/main.e6684c50.chunk.css",
-    "static/js/main.ff1adb18.chunk.js"
+    "static/js/main.44804327.chunk.js"
   ]
 }
