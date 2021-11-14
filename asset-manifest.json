@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/sambo/static/css/main.9e7cd135.chunk.css",
-    "main.js": "/sambo/static/js/main.812cd95b.chunk.js",
-    "main.js.map": "/sambo/static/js/main.812cd95b.chunk.js.map",
+    "main.css": "/sambo/static/css/main.574ca296.chunk.css",
+    "main.js": "/sambo/static/js/main.1d942931.chunk.js",
+    "main.js.map": "/sambo/static/js/main.1d942931.chunk.js.map",
     "runtime-main.js": "/sambo/static/js/runtime-main.1ca428d4.js",
     "runtime-main.js.map": "/sambo/static/js/runtime-main.1ca428d4.js.map",
     "static/css/2.4659568d.chunk.css": "/sambo/static/css/2.4659568d.chunk.css",
@@ -10,9 +10,10 @@
     "static/js/2.f72a7028.chunk.js.map": "/sambo/static/js/2.f72a7028.chunk.js.map",
     "index.html": "/sambo/index.html",
     "static/css/2.4659568d.chunk.css.map": "/sambo/static/css/2.4659568d.chunk.css.map",
-    "static/css/main.9e7cd135.chunk.css.map": "/sambo/static/css/main.9e7cd135.chunk.css.map",
+    "static/css/main.574ca296.chunk.css.map": "/sambo/static/css/main.574ca296.chunk.css.map",
     "static/js/2.f72a7028.chunk.js.LICENSE.txt": "/sambo/static/js/2.f72a7028.chunk.js.LICENSE.txt",
-    "static/media/card-list.styles.scss": "/sambo/static/media/background-palm-leave.f5152881.png",
+    "static/media/rodizio-concept.styles.scss": "/sambo/static/media/KNIFE.fd29dca9.png",
+    "static/media/booking-view.styles.scss": "/sambo/static/media/background-palm-leave.f5152881.png",
     "static/media/buffet_SAMBO.8c4aae54.png": "/sambo/static/media/buffet_SAMBO.8c4aae54.png",
     "static/media/cocktails_SAMBO.3c87bdf9.png": "/sambo/static/media/cocktails_SAMBO.3c87bdf9.png",
     "static/media/menupage.styles.scss": "/sambo/static/media/dark-blue.9144f5a8.jpg",
@@ -30,7 +31,7 @@
     "static/js/runtime-main.1ca428d4.js",
     "static/css/2.4659568d.chunk.css",
     "static/js/2.f72a7028.chunk.js",
-    "static/css/main.9e7cd135.chunk.css",
-    "static/js/main.812cd95b.chunk.js"
+    "static/css/main.574ca296.chunk.css",
+    "static/js/main.1d942931.chunk.js"
   ]
 }
