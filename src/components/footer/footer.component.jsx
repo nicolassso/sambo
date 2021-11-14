@@ -31,7 +31,7 @@ const Footer = () => (
                         <h4>CLOSING DAYS</h4>
                     </div>
                     <div className="top-left-content-box-days">
-                        <p>Tuesday | Wednesday : Closed days</p>
+                        <p>Tuesday | Wednesday : Closed</p>
                     </div>
                     <div className="top-left-content-box-button">
                         {/* <CustomButton>Booking</CustomButton> */}

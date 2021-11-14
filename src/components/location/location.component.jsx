@@ -33,7 +33,7 @@ function Location({service, destino}) {
                     }
                     }}>
                 <CustomButton> 
-                   GO TO {location.title} {service}
+                   <p>GO TO {location.title} {service}</p>
                 </CustomButton>
               </Link>
 

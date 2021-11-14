@@ -17,7 +17,7 @@ const MenuView = () => {
                 <div className="menuview-header">
                     <div className="location-button-back">
                         <Link to='/menu-location' >
-                            <CustomButton>BACK TO LOCATIONS</CustomButton>
+                            <CustomButton><p>BACK TO LOCATIONS</p></CustomButton>
                         </Link>
                     </div>
                     <div className="location-chosen">

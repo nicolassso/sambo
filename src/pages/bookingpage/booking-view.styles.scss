@@ -3,6 +3,10 @@
     flex-direction: column;
     align-items: center;
     color: var(--textWhite);
+    background-image: url('../../assets/images/background-palm-leave.png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
 
     .bookingview-header{
         display: flex;
@@ -17,6 +21,13 @@
 
     .location-chosen{
         margin: 50px 0;
+        h2{
+            font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+            font-weight: 700;
+            font-size: 30px;
+            letter-spacing: 1px;
+            line-height: 1.5em;
+        }
     }
     .table-agent{
         height: 80vh;
@@ -35,6 +46,8 @@
         justify-content: center;
         align-items: center;
         color: var(--textWhite);
+        padding-top: 0;
+
     
         .bookingview-header{
             display: flex;

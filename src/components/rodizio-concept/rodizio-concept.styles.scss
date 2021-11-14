@@ -1,0 +1,66 @@
+.rodizio-concept{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    width: 100%;
+    background-image: url('../../assets/images/KNIFE.png');
+    background-position: center;
+    background-size: cover;
+
+    .rodizio-concept-image{
+        width: 50%;
+        height: 100%;
+    }
+    .rodizio-concept-text{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+
+        h3{
+            font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+            font-weight: 700;
+            font-size: 30px;
+            color: var(--textWhite);
+            letter-spacing: 2px;
+            line-height: 1.5em;
+        }
+        p{
+            color: var(--textWhite);
+            width: 80%;
+            font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 1.8em;
+        }
+    }
+}
+
+@media screen and(max-width: 980px){
+    .rodizio-concept{
+        flex-direction: column;
+        height: fit-content;
+        width: 100%;
+        background-position: top;
+        padding: 20px;
+    
+        .rodizio-concept-image{
+            width: 100%;
+            height: 100%;
+        }
+        .rodizio-concept-text{
+            width: 100%;
+            height: 100%;
+            text-align: right;
+
+            h3{
+                margin-bottom: 50px;
+            }
+            p{
+                align-self: center;
+            }
+        }
+    }
+}

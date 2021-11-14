@@ -16,11 +16,11 @@ const BookingView = () => {
                 <div className="bookingview-header">
                     <div className="location-button-back">
                         <Link to='/booking-location' >
-                            <CustomButton>BACK TO LOCATIONS</CustomButton>
+                            <CustomButton><p>BACK TO LOCATIONS</p></CustomButton>
                         </Link>
                     </div>
                     <div className="location-chosen">
-                        <h1>BOOKING FOR {location.state.title.toUpperCase()}</h1>
+                        <h2>SAMBÔ {location.state.title.toUpperCase()} BOOKING</h2>
                     </div>
                 </div>
             <TableAgent location={location.state.title} />

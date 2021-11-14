@@ -8,6 +8,27 @@
     background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2) ),  url(../../assets/images/dark-blue.jpg);
     background-position: center;
     background-size: cover;
+    padding-top: 100px;
+
+
+    .location{
+        .go-to-menu-btn{
+            width: fit-content;    
+            .custom-button{
+                background-color: #04397e;
+                transition-duration:  1s;
+                p{
+                    letter-spacing: 2.5px;
+                    margin: 0;
+                    font-weight: 600;
+                }
+                &:hover {
+                    background-color: rgb(12, 11, 11);
+                    color: #c5c5c5;
+                    }
+            }
+        }
+    }
 }
 .menupage-text{
     margin: 20px 0 0 0;
@@ -18,10 +39,12 @@
     
 
     h1{
-        font-weight: 700;
+        font-weight: 500;
         line-height: 28px;
         font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
         font-size: 18px;
+        letter-spacing: 2px;
+
     }
 
 }
@@ -42,6 +65,8 @@
         background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4) ),  url(../../assets/images/dark-blue.jpg);
         background-position: center;
         background-size: auto;
+        padding-top: 0;
+
     }
 
     .menupage-text{

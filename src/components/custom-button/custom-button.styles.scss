@@ -6,16 +6,23 @@
   line-height: 50px;
   padding: 0 35px 0 35px;
   font-size: 11px;
-  background-color: rgb(12, 11, 11);
+  background-color: #04397e;
   color: #c5c5c5;
   text-transform: uppercase;
   border: none;
   cursor: pointer;
-  transition-duration: .5s;
+  transition-duration:  1s;
+
+  p{
+    letter-spacing: 2.5px;
+    margin: 0;
+    font-weight: 600;
+}
 
   &:hover {
-    background-color: #04397e;
+    background-color: rgb(12, 11, 11);
     color: #c5c5c5;
-    outline: solid black .2rem;
+    cursor: pointer;
+
   }
 }

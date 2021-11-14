@@ -27,12 +27,12 @@ const MENU_DATA = [
                     fivetoeight: 8.95,
                     nineplus: 14.95
                 },
-                adult: 20.95
+                adult:{
+                    weekday: 24.95,
+                    weekend: 28.95
+                } 
             },
-            dinner:{
-                weekday: 32.95,
-                weekend: 35.95
-            }
+            dinner: 34.95
         }
     }
 ]

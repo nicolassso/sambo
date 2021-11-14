@@ -3,27 +3,28 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .table-agent-widget{
     margin-bottom: 100px;
     height: 200px;
-    position: absolute;
-    right: 20%;
     border-radius: 5px;
 }
 
 .table-agent-wrapper{
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .booking-policy{
     padding: 20px;
     width: 30%;
-    position: absolute;
-    left: 15%;
     text-align: center;
 }
 

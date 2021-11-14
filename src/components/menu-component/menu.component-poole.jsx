@@ -8,6 +8,7 @@ function MenuPoole() {
     const {price} = MENU_DATA;
     //IMPLEMENT EXTERNAL STATE FOR PRICES
 
+
     return(
         <div className="menu">
             <div className="menu-lunch">
@@ -30,8 +31,9 @@ function MenuPoole() {
                         <h1>LUNCH MENU</h1>
                     </div>
                     <div className="menu-lunch-prices-body">
-                        <b className='price-text'>SELECTION OF 8 MEATS</b> <br /> THURSDAY TO SUNDAY: <b className='price-text'>20,95</b> <br />
-                        CHILDREN UP TO 4 YEARS <b className='price-text'>FREE</b><br /> 5 TO 8 YEARS: <b className='price-text'>8,95</b><br /> 9 TO 13 YEARS: <b className='price-text'>13,95</b>
+                        <b className='price-text'>SELECTION OF 8 MEATS</b> <br /> WEEKDAY: <b className='price-text'>24,95</b> <br /> 
+                        WEEKEND & BANK HOLIDAYS: <b className='price-text'>28,95</b> <br />
+                        CHILDREN UP TO 6 YEARS <b className='price-text'>FREE</b><br /> 6 TO 12 YEARS: <b className='price-text'>HALF PRICE</b>
                     </div>
                 </div>
                 <div className="menu-lunch-meats">
@@ -88,7 +90,7 @@ function MenuPoole() {
                 <div className="menu-dinner-header">
                     <div className="menu-dinner-header-top"><h1>DINNER MENU</h1></div>
                     <div className="menu-dinner-header-text"><b className='price-text'>A SELECTION OF 14 MEATS, INCLUDING LUNCH MENU PLUS 6 CUTS</b> <br />
-                        MONDAY TO THURSDAY: <b className='price-text'>32,95</b> <br /> FRIDAY TO SUNDAY: <b className='price-text'>35,95</b></div>
+                        MONDAY TO SUNDAY: <b className='price-text'>34,95</b></div>
                     </div>
                 <div className="menu-dinner-meats">
                     <div className="menu-dinner-meats-left">
@@ -147,7 +149,12 @@ function MenuPoole() {
                 <div className="menu-vegs">
                     <div className="menu-vegs-header">
                         <h1>VEGETARIAN AND FISH OPTION</h1>
-                        <div className="menu-vegs-header-text">LUNCH <b className='price-text'>15,95</b> DINNER <b className='price-text'>19,95</b></div>
+                        <div className="menu-vegs-header-text">
+                        <b className='price-text'>LUNCH</b><br />
+                        WEEKDAY: <b className='price-text'>24,95</b> <br />
+                        WEEKEND & BANK HOLIDAYS: <b className='price-text'>28,95</b><br /> <br />
+                        <b className='price-text'>DINNER</b><br />
+                        MONDAY TO SUNDAY: <b className='price-text'>29,95</b></div> <br />
                     </div>
                     <div className="menu-vegs-food">
                         <div className="menu-vegs-food-left">
