@@ -34,7 +34,6 @@ function App() {
     <div>
         {/* <TopSocialMedia /> */}
         <PopUp trigger={timedPopUp} setTrigger={setTimedPopUp}>
-                  <h1>Hey, this is the Christmas Pop Up</h1>
           </PopUp>
         <Header/>
         <ScrollService>
