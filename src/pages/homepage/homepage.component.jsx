@@ -9,10 +9,13 @@ import RodizioConcept from '../../components/rodizio-concept/rodizio-concept.com
 
 const HomePage = () => (
     <div className="homepage">
+
         <LandingVideo />
         <CardList />
         <GiftCard />
         <RodizioConcept />
+        
+        
         {/* <TripAdvisor /> */}
 
     </div>
