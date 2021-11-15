@@ -50,6 +50,23 @@
     justify-content: center;
 }
 
+.cardlist-button{
+    .custom-button{
+                background-color: #F16788;
+                transition-duration:  1s;
+                color: #150B11;
+                p{
+                    letter-spacing: 2.5px;
+                    margin: 0;
+                    font-weight: 600;
+                }
+                &:hover {
+                    background-color: #c99872;
+                    color: #150B11;
+                }
+            }
+}
+
 @media screen and (max-width:980px){
     .cardlist-container{
         display: flex;

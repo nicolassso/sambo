@@ -21,7 +21,8 @@ const Voucher = () => {
 
     <div className="voucher">
         <div className="voucher-text">
-            <span className='voucher-span'>SHARE A CHURRASCO ART EXPERIENCE <br /> WITH OUR GIFT CARD</span>
+            <h2>SAMBÔ GIFT VOUCHER</h2>
+            <p>Welcome to Sambô gift voucher page.</p>
 
         </div>
         <div className="image-wrapper">

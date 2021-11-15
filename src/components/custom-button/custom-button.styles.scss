@@ -1,22 +1,22 @@
 .custom-button {
   min-width: 100px;
   width: auto;
-  height: 50px;
-  letter-spacing: 0.5px;
-  line-height: 50px;
-  padding: 0 35px 0 35px;
-  font-size: 11px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
   background-color: #04397e;
   color: #c5c5c5;
-  text-transform: uppercase;
   border: none;
   cursor: pointer;
   transition-duration:  1s;
 
   p{
-    letter-spacing: 2.5px;
     margin: 0;
     font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 10px;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    text-transform: uppercase;
 }
 
   &:hover {

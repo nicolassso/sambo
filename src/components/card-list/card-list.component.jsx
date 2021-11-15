@@ -1,7 +1,9 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 
 import Card from '../card/card.component';
 import CARD_DATA from './card-data';
+import CustomButton from '../../components/custom-button/custom-button.component'
 
 import './card-list.styles.scss';
 
@@ -38,6 +40,12 @@ function CardList() {
           </div>)
         )
       }
+    </div>
+
+    <div className="cardlist-button">
+      <Link>
+        <CustomButton><p>Check our menu</p></CustomButton>
+      </Link>
     </div>
   </div>)
 }

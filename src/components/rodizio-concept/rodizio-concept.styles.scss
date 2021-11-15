@@ -3,13 +3,20 @@
     flex-direction: row;
     height: 80vh;
     width: 100%;
-    background-image: url('../../assets/images/KNIFE.png');
+    background-image: linear-gradient(to right, rgb(0, 0, 0, 0), rgb(0, 0, 0, 0.6)), url('../../assets/images/KNIFE.png');
     background-position: center;
     background-size: cover;
 
     .rodizio-concept-image{
         width: 50%;
         height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 20px;
+        img{
+            width: 200px;
+        }
     }
     .rodizio-concept-text{
         width: 50%;
@@ -43,17 +50,20 @@
         flex-direction: column;
         height: fit-content;
         width: 100%;
-        background-position: top;
-        padding: 20px;
+        background-position: 30% 50%;
+        background-size: cover;
+        padding: 10% 5%;
+        background-image: linear-gradient(rgb(0, 0, 0, 0), rgb(0, 0, 0, 0.8)), url('../../assets/images/KNIFE.png');
     
         .rodizio-concept-image{
             width: 100%;
             height: 100%;
+            margin-bottom: 10%;
         }
         .rodizio-concept-text{
             width: 100%;
             height: 100%;
-            text-align: right;
+            text-align: center;
 
             h3{
                 margin-bottom: 50px;

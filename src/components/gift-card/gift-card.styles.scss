@@ -1,0 +1,92 @@
+.gift-card-sambo{
+    height: fit-content;
+    width: 100%;
+    .gift-card-container{
+        display: flex;
+        flex-direction: row;
+        height: 460px;
+        width: 100%;
+        .gift-card-content-left, .gift-card-content-right{
+            height: 100%;
+            width: 50%;
+        }
+        .gift-card-content-left{
+            background-color: #0C1418;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .gift-card-content-left-text{
+                width: 80%;
+                height: 60%;
+                display: flex;
+                flex-direction: column;
+                padding: 10%;
+                h3{
+                    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+                    font-weight: 700;
+                    font-size: 30px;
+                    letter-spacing: 2px;
+                    line-height: 1.5em;
+                }
+                p{
+                    line-height: 1.8em;
+                    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+                    font-weight: 300;
+                    font-size: 15px;
+                    line-height: 1.8em;
+                }
+            }
+            .gift-card-content-left-button{
+                width: 80%;
+                height: 40%;
+                padding: 0 10%;
+                .custom-button{
+                    background-color: #F16788;
+                    transition-duration:  1s;
+                    color: #150B11;
+                    p{
+                        letter-spacing: 2.5px;
+                        margin: 0;
+                        font-weight: 600;
+                    }
+                    &:hover {
+                        background-color: #c99872;
+                        color: #150B11;
+                    }
+                }
+            }
+        }
+        .gift-card-content-right{
+            background-image: url('../../assets/images/GIFT_CARD.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+    }
+}
+
+@media screen and (max-width: 980px){
+    .gift-card-sambo{
+        .gift-card-container{
+            flex-direction: column;
+            height: fit-content;
+            .gift-card-content-left, .gift-card-content-right{
+                width: 100%;
+            }
+            .gift-card-content-left{
+                order: 1;
+                padding: 0 0 48px 0;
+                .gift-card-content-left-text, .gift-card-content-left-button{
+                    width: 100%;
+                }
+                .gift-card-content-left-button{
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+            .gift-card-content-right{
+                order: 0;
+                height: 200px;
+            }
+        }
+    }
+}

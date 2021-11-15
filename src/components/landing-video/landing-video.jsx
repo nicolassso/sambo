@@ -11,7 +11,7 @@ function LandingVideo(){
     return(
         <div className="landing-video">
             <div className="video-wrapper">
-                {widthWindow > 500 ? 
+                {widthWindow > 980 ? 
                     <video
                         className="solo-fogo-video"
                         autoPlay
@@ -29,7 +29,7 @@ function LandingVideo(){
             </div>
             <div className="landing-button">
                 <Link to='/booking-location'>
-                    <CustomButton>BOOKING</CustomButton>
+                    <CustomButton><p>BOOKING</p></CustomButton>
                 </Link>
             </div>
         </div>

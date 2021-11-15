@@ -54,13 +54,19 @@ function Header() {
 
                 <li className='header-item active'>
                     <Link className="option" to='/sambo' onClick={closeMobileMenu} >
-                        HOME
+                        SAMBÔ
                     </Link>
                 </li>
 
                 <li className='header-item active'>
                     <Link className="option" to='/menu-location' onClick={closeMobileMenu} >
                         MENU
+                    </Link>
+                </li>
+
+                <li className='header-item active'>
+                    <Link className="option" to='/voucher' onClick={closeMobileMenu} >
+                        VOUCHER
                     </Link>
                 </li>
                 
