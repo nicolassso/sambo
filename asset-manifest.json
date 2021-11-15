@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sambo/static/css/main.3ac055a8.chunk.css",
+    "main.css": "/sambo/static/css/main.a6ca472a.chunk.css",
     "main.js": "/sambo/static/js/main.6ae2ad63.chunk.js",
     "main.js.map": "/sambo/static/js/main.6ae2ad63.chunk.js.map",
     "runtime-main.js": "/sambo/static/js/runtime-main.1ca428d4.js",
@@ -10,7 +10,7 @@
     "static/js/2.634c3983.chunk.js.map": "/sambo/static/js/2.634c3983.chunk.js.map",
     "index.html": "/sambo/index.html",
     "static/css/2.4659568d.chunk.css.map": "/sambo/static/css/2.4659568d.chunk.css.map",
-    "static/css/main.3ac055a8.chunk.css.map": "/sambo/static/css/main.3ac055a8.chunk.css.map",
+    "static/css/main.a6ca472a.chunk.css.map": "/sambo/static/css/main.a6ca472a.chunk.css.map",
     "static/js/2.634c3983.chunk.js.LICENSE.txt": "/sambo/static/js/2.634c3983.chunk.js.LICENSE.txt",
     "static/media/gift-card.styles.scss": "/sambo/static/media/GIFT_CARD.43a81fbb.jpg",
     "static/media/rodizio-concept.styles.scss": "/sambo/static/media/KNIFE.fd29dca9.png",
@@ -33,7 +33,7 @@
     "static/js/runtime-main.1ca428d4.js",
     "static/css/2.4659568d.chunk.css",
     "static/js/2.634c3983.chunk.js",
-    "static/css/main.3ac055a8.chunk.css",
+    "static/css/main.a6ca472a.chunk.css",
     "static/js/main.6ae2ad63.chunk.js"
   ]
 }
