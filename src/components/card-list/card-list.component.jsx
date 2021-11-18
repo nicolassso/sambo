@@ -43,7 +43,7 @@ function CardList() {
     </div>
 
     <div className="cardlist-button">
-      <Link to='menu-location'>
+      <Link to='/menu-location'>
         <CustomButton><p>Check our menu</p></CustomButton>
       </Link>
     </div>
